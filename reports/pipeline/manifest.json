@@ -1,0 +1,23 @@
+{
+  "version": "structure-v2.1",
+  "config": {
+    "min_rr": 1.8,
+    "risk_pct": 1.0,
+    "pivot_span": 3,
+    "lookback": 500,
+    "zone_atr": 0.45,
+    "stop_atr": 0.25,
+    "min_displacement": 1.5,
+    "max_tests": 2,
+    "confirmation_atr": 0.25,
+    "max_hold_days": 7,
+    "fee_bps": 10,
+    "slippage_bps": 5
+  },
+  "end": 1790035200,
+  "hashes": {
+    "rahamasin/strategy/engine.py": "9cbd49eb4881e95070d64677db1baf4d9441f34d6cc4a8916ff841f19d359ae8",
+    "rahamasin/strategy/levels.py": "4c91c2a7d50250764d67affecd7fb6f6664f1ad94f760475207d61af222e3aed",
+    "rahamasin/backtest/engine.py": "bf352e187b8cda4f28e00ed831a2967b6d0cbc08051e359e3bed6da32748e183"
+  }
+}

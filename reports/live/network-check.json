@@ -1,0 +1,21 @@
+{
+  "quotes": [
+    {
+      "source": "Binance \u00b7 ONDO/USDT",
+      "price": 0.5212,
+      "bid": 0.5211,
+      "ask": 0.5212,
+      "received_at": 1790616228.498524,
+      "provider_time": 1790616228.043
+    },
+    {
+      "source": "Binance \u00b7 ONDO/USDT",
+      "price": 0.5208,
+      "bid": 0.5208,
+      "ask": 0.5209,
+      "received_at": 1790616233.089719,
+      "provider_time": 1790616232.857
+    }
+  ],
+  "errors": []
+}

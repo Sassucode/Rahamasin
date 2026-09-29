@@ -1,0 +1,53 @@
+{
+  "funnel": {
+    "candles_evaluated": 1104,
+    "swing_candidates": 100784,
+    "historical_zones_available": 16329,
+    "price_near_zone": 1334,
+    "fresh_enough_zone": 168,
+    "zone_strength_passed": 102,
+    "confirmation_passed": 7,
+    "market_structure_passed": 0,
+    "entry_timing_passed": 0,
+    "valid_stop_found": 0,
+    "valid_target_found": 0,
+    "minimum_rr_passed": 0,
+    "final_LONG_signals": 0,
+    "final_SHORT_signals": 0,
+    "selected_candidates": 1444
+  },
+  "rejections": {
+    "rejected_confirmation": 1437,
+    "rejected_zone_too_old": 768,
+    "rejected_too_many_touches": 369,
+    "rejected_zone_width": 66,
+    "rejected_previous_failed_hold": 15,
+    "rejected_repeated_flips": 14,
+    "rejected_prolonged_overlap": 5,
+    "rejected_entry_too_late": 2
+  },
+  "inventory": {
+    "loaded_candles": 1604,
+    "warmup_candles": 500,
+    "test_candles": 1104,
+    "confirmed_highs": 144,
+    "confirmed_lows": 150,
+    "distinct_zone_identities": 93,
+    "support_zones": 51,
+    "resistance_zones": 42,
+    "polarity_flip_zones": 57,
+    "median_width_creation_atr": 0.4500000000000001,
+    "median_age_bars": 335,
+    "latest_touch_distribution": {
+      "0": 12,
+      "2": 1,
+      "1": 2
+    },
+    "latest_snapshot": {
+      "support": 14,
+      "resistance": 1,
+      "flipped": 12,
+      "width_current_atr": 0.2044044427422423
+    }
+  }
+}

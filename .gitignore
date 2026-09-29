@@ -1,0 +1,21 @@
+.venv/
+__pycache__/
+.pytest_cache/
+*.sqlite3*
+*.egg-info/
+
+# Secrets / environment
+.env
+.env.*
+*.env
+
+# macOS
+.DS_Store
+
+# Python
+*.pyc
+*.pyo
+
+# IDE
+.vscode/
+.idea/

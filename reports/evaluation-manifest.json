@@ -1,0 +1,24 @@
+{
+  "config": {
+    "min_rr": 1.8,
+    "risk_pct": 1.0,
+    "pivot_span": 3,
+    "lookback": 500,
+    "zone_atr": 0.45,
+    "stop_atr": 0.25,
+    "min_displacement": 1.5,
+    "max_tests": 2,
+    "confirmation_atr": 0.25,
+    "max_hold_days": 7,
+    "fee_bps": 10,
+    "slippage_bps": 5
+  },
+  "code_sha256": {
+    "rahamasin/models.py": "ab1e5016c36f161ee07278d82ec38e1edc3ea888ba248301316eeab7178f8355",
+    "rahamasin/strategy/engine.py": "6b873524036a428bc2a3c62c79d8e75de8e1d8f647f7ed31c3697a026a60657b",
+    "rahamasin/strategy/levels.py": "913e9530c863432c71b5a63dbd7b22c8059746ca1173d127670ff61cbd378ce4",
+    "rahamasin/strategy/context.py": "569a4b3d01465c337eafa85ebfe890e39ccdf4a3faef8ef9b5b27f345d9a2c65",
+    "rahamasin/backtest/engine.py": "a7efe76f34b2635dd7a5ac047bda44d8c1252b6737ce1ffe3a15e6cdbd21cdc3"
+  },
+  "holdout_policy": "Frozen before v2 market evaluation. Retrospective holdout, previously seen v1 sample overlaps."
+}

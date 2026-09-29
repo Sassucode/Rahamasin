@@ -1,0 +1,20 @@
+4h Full starting
+4h Full {'total_trades': 10, 'wins': 3, 'losses': 7, 'breakeven': 0, 'win_rate': 30.0, 'average_win': 1.9862910819349875, 'average_loss': -0.8574954541615193, 'average_R': -0.004359493332567271, 'total_R': -0.04359493332567271, 'expectancy': -0.004359493332567271, 'profit_factor': 0.9927371654418355, 'maximum_drawdown_pct': 7.027149940751462, 'longest_losing_streak': 7}
+4h Development 70% starting
+4h Development 70% {'total_trades': 7, 'wins': 1, 'losses': 6, 'breakeven': 0, 'win_rate': 14.285714285714286, 'average_win': 1.7821812677442295, 'average_loss': -0.8218092123577329, 'average_R': -0.4498105723431669, 'total_R': -3.1486740064021683, 'expectancy': -0.4498105723431669, 'profit_factor': 0.36143451159246426, 'maximum_drawdown_pct': 6.020048654030143, 'longest_losing_streak': 6}
+4h Evaluation 30% starting
+4h Evaluation 30% {'total_trades': 3, 'wins': 2, 'losses': 1, 'breakeven': 0, 'win_rate': 66.66666666666667, 'average_win': 2.0883459890303664, 'average_loss': -1.0716129049842373, 'average_R': 1.0350263576921652, 'total_R': 3.1050790730764954, 'expectancy': 1.0350263576921652, 'profit_factor': 3.897575289205918, 'maximum_drawdown_pct': 1.0716129049842311, 'longest_losing_streak': 1}
+4h Current six months starting
+4h Current six months {'total_trades': 3, 'wins': 2, 'losses': 1, 'breakeven': 0, 'win_rate': 66.66666666666667, 'average_win': 2.0883459890303664, 'average_loss': -1.0716129049842373, 'average_R': 1.0350263576921652, 'total_R': 3.1050790730764954, 'expectancy': 1.0350263576921652, 'profit_factor': 3.897575289205918, 'maximum_drawdown_pct': 1.0716129049842311, 'longest_losing_streak': 1}
+RR sensitivity 1.2 {'rr_survivors': 10, 'long_signals': 3, 'short_signals': 6, 'submitted': 7, 'filled': 6, 'completed': 6}
+RR sensitivity 1.5 {'rr_survivors': 6, 'long_signals': 1, 'short_signals': 4, 'submitted': 4, 'filled': 3, 'completed': 3}
+RR sensitivity 1.8 {'rr_survivors': 4, 'long_signals': 1, 'short_signals': 2, 'submitted': 3, 'filled': 3, 'completed': 3}
+RR sensitivity 2.0 {'rr_survivors': 2, 'long_signals': 0, 'short_signals': 1, 'submitted': 1, 'filled': 1, 'completed': 1}
+1h Full starting
+1h Full {'total_trades': 17, 'wins': 5, 'losses': 12, 'breakeven': 0, 'win_rate': 29.41176470588235, 'average_win': 2.5927969966241866, 'average_loss': -1.18625293036969, 'average_R': -0.07476765772443232, 'total_R': -1.2710501813153494, 'expectancy': -0.07476765772443232, 'profit_factor': 0.9107097266263983, 'maximum_drawdown_pct': 9.812399913617375, 'longest_losing_streak': 7}
+1h Development 70% starting
+1h Development 70% {'total_trades': 11, 'wins': 3, 'losses': 8, 'breakeven': 0, 'win_rate': 27.272727272727273, 'average_win': 2.7460519672368733, 'average_loss': -1.1867846915182312, 'average_R': -0.11419287549411189, 'total_R': -1.2561216304352307, 'expectancy': -0.11419287549411189, 'profit_factor': 0.8676969757643763, 'maximum_drawdown_pct': 9.812399913617375, 'longest_losing_streak': 7}
+1h Evaluation 30% starting
+1h Evaluation 30% {'total_trades': 6, 'wins': 2, 'losses': 4, 'breakeven': 0, 'win_rate': 33.333333333333336, 'average_win': 2.3629145407051566, 'average_loss': -1.185189408072608, 'average_R': -0.002488091813353114, 'total_R': -0.014928550880118685, 'expectancy': -0.002488091813353114, 'profit_factor': 0.9968510200187336, 'maximum_drawdown_pct': 2.8943387748613034, 'longest_losing_streak': 2}
+1h Current six months starting
+1h Current six months {'total_trades': 6, 'wins': 2, 'losses': 4, 'breakeven': 0, 'win_rate': 33.333333333333336, 'average_win': 2.3629145407051566, 'average_loss': -1.185189408072608, 'average_R': -0.002488091813353114, 'total_R': -0.014928550880118685, 'expectancy': -0.002488091813353114, 'profit_factor': 0.9968510200187336, 'maximum_drawdown_pct': 2.8943387748613034, 'longest_losing_streak': 2}

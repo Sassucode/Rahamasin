@@ -1,0 +1,4135 @@
+{
+  "1d": {
+    "source": "Coinbase \u00b7 ONDO/USD",
+    "data_first": "2024-01-23T00:00:00+00:00",
+    "data_last": "2026-09-20T00:00:00+00:00",
+    "candles": 972,
+    "warmup_bars": 40,
+    "data_sha256": "d91960bd5670b484e6ad24907920d69e53a4f80ced1b4a01dfdccde5c4e2332b",
+    "variants": {
+      "original": {
+        "Full": {
+          "start": "2024-03-03T00:00:00+00:00",
+          "end": "2026-09-21T00:00:00+00:00",
+          "metrics": {
+            "total_trades": 26,
+            "wins": 7,
+            "losses": 19,
+            "breakeven": 0,
+            "win_rate": 26.923076923076923,
+            "average_win": 2.0203095246183573,
+            "average_loss": -1.0316426376117693,
+            "average_R": -0.20996320931904297,
+            "total_R": -5.459043442295117,
+            "expectancy": -0.20996320931904297,
+            "profit_factor": 0.7214945704692814,
+            "maximum_drawdown_pct": 11.31024354593008,
+            "longest_losing_streak": 9
+          },
+          "diagnostics": {
+            "LONG": {
+              "trades": 13,
+              "win_rate": 38.46153846153846,
+              "expectancy": 0.0781295399519962,
+              "total_r": 1.0156840193759507,
+              "profit_factor": 1.1267499997824213
+            },
+            "SHORT": {
+              "trades": 13,
+              "win_rate": 15.384615384615385,
+              "expectancy": -0.49805595859008217,
+              "total_r": -6.474727461671068,
+              "profit_factor": 0.4412521614293031
+            },
+            "Fresh zones": {
+              "trades": 0,
+              "win_rate": 0,
+              "expectancy": 0,
+              "total_r": 0,
+              "profit_factor": "\u2014"
+            },
+            "Retested zones": {
+              "trades": 26,
+              "win_rate": 26.923076923076923,
+              "expectancy": -0.209963209319043,
+              "total_r": -5.459043442295117,
+              "profit_factor": 0.7214945704692814
+            },
+            "First retest": {
+              "trades": 0,
+              "win_rate": 0,
+              "expectancy": 0,
+              "total_r": 0,
+              "profit_factor": "\u2014"
+            },
+            "Second/third retest": {
+              "trades": 1,
+              "win_rate": 0.0,
+              "expectancy": -1.016372757638568,
+              "total_r": -1.016372757638568,
+              "profit_factor": 0.0
+            },
+            "Fourth+ retest": {
+              "trades": 25,
+              "win_rate": 28.0,
+              "expectancy": -0.17770682738626198,
+              "total_r": -4.44267068465655,
+              "profit_factor": 0.7609518663349085
+            },
+            "Trend aligned": {
+              "trades": 8,
+              "win_rate": 25.0,
+              "expectancy": -0.27041632636538737,
+              "total_r": -2.163330610923099,
+              "profit_factor": 0.660620997353897
+            },
+            "Countertrend": {
+              "trades": 7,
+              "win_rate": 14.285714285714286,
+              "expectancy": -0.74221265300479,
+              "total_r": -5.19548857103353,
+              "profit_factor": 0.1799193932774141
+            },
+            "Range": {
+              "trades": 11,
+              "win_rate": 36.36363636363637,
+              "expectancy": 0.17270688542377374,
+              "total_r": 1.8997757396615111,
+              "profit_factor": 1.275669747956819
+            },
+            "Rejection": {
+              "trades": 26,
+              "win_rate": 26.923076923076923,
+              "expectancy": -0.209963209319043,
+              "total_r": -5.459043442295117,
+              "profit_factor": 0.7214945704692814
+            },
+            "Breakout-retest": {
+              "trades": 0,
+              "win_rate": 0,
+              "expectancy": 0,
+              "total_r": 0,
+              "profit_factor": "\u2014"
+            },
+            "Strong (>=65)": {
+              "trades": 15,
+              "win_rate": 40.0,
+              "expectancy": 0.1719536234794524,
+              "total_r": 2.579304352191786,
+              "profit_factor": 1.2717569349908766
+            },
+            "Weak (<65)": {
+              "trades": 11,
+              "win_rate": 9.090909090909092,
+              "expectancy": -0.7307588904079003,
+              "total_r": -8.038347794486903,
+              "profit_factor": 0.20491056590491916
+            },
+            "Recent (<=100 bars)": {
+              "trades": 4,
+              "win_rate": 0.0,
+              "expectancy": -1.0595107706207987,
+              "total_r": -4.238043082483195,
+              "profit_factor": 0.0
+            },
+            "Old (>100 bars)": {
+              "trades": 22,
+              "win_rate": 31.818181818181817,
+              "expectancy": -0.05550001635508742,
+              "total_r": -1.2210003598119232,
+              "profit_factor": 0.9205241759555477
+            },
+            "Narrow (<=0.5 ATR)": {
+              "trades": 17,
+              "win_rate": 23.529411764705884,
+              "expectancy": -0.34664423153313195,
+              "total_r": -5.892951936063243,
+              "profit_factor": 0.5565551471571001
+            },
+            "Wide (>0.5 ATR)": {
+              "trades": 9,
+              "win_rate": 33.333333333333336,
+              "expectancy": 0.048212054863125076,
+              "total_r": 0.4339084937681257,
+              "profit_factor": 1.0687414622678921
+            },
+            "Stop <0.75 ATR": {
+              "trades": 20,
+              "win_rate": 25.0,
+              "expectancy": -0.2802762607473995,
+              "total_r": -5.605525214947989,
+              "profit_factor": 0.6470287344405031
+            },
+            "Stop 0.75\u20131.5 ATR": {
+              "trades": 4,
+              "win_rate": 50.0,
+              "expectancy": 0.44749061193328116,
+              "total_r": 1.7899624477331246,
+              "profit_factor": 1.8619006627595176
+            },
+            "Stop >1.5 ATR": {
+              "trades": 2,
+              "win_rate": 0.0,
+              "expectancy": -0.8217403375401264,
+              "total_r": -1.6434806750802529,
+              "profit_factor": 0.0
+            },
+            "Previously failed hold": {
+              "trades": 26,
+              "win_rate": 26.923076923076923,
+              "expectancy": -0.209963209319043,
+              "total_r": -5.459043442295117,
+              "profit_factor": 0.7214945704692814
+            },
+            "No failed holds": {
+              "trades": 0,
+              "win_rate": 0,
+              "expectancy": 0,
+              "total_r": 0,
+              "profit_factor": "\u2014"
+            },
+            "Impulse >=3 ATR": {
+              "trades": 0,
+              "win_rate": 0,
+              "expectancy": 0,
+              "total_r": 0,
+              "profit_factor": "\u2014"
+            },
+            "Impulse <3 ATR": {
+              "trades": 26,
+              "win_rate": 26.923076923076923,
+              "expectancy": -0.209963209319043,
+              "total_r": -5.459043442295117,
+              "profit_factor": 0.7214945704692814
+            }
+          }
+        },
+        "Development 70%": {
+          "start": "2024-03-03T00:00:00+00:00",
+          "end": "2025-12-15T00:00:00+00:00",
+          "metrics": {
+            "total_trades": 20,
+            "wins": 6,
+            "losses": 14,
+            "breakeven": 0,
+            "win_rate": 30.0,
+            "average_win": 1.9734289661415678,
+            "average_loss": -1.0513631227539264,
+            "average_R": -0.1439254960852781,
+            "total_R": -2.8785099217055623,
+            "expectancy": -0.1439254960852781,
+            "profit_factor": 0.8044368809400211,
+            "maximum_drawdown_pct": 11.31024354593008,
+            "longest_losing_streak": 9
+          },
+          "diagnostics": {
+            "LONG": {
+              "trades": 9,
+              "win_rate": 44.44444444444444,
+              "expectancy": 0.1578845798912971,
+              "total_r": 1.4209612190216738,
+              "profit_factor": 1.2677817185038749
+            },
+            "SHORT": {
+              "trades": 11,
+              "win_rate": 18.181818181818183,
+              "expectancy": -0.3908610127933851,
+              "total_r": -4.299471140727237,
+              "profit_factor": 0.543225012368808
+            },
+            "Fresh zones": {
+              "trades": 0,
+              "win_rate": 0,
+              "expectancy": 0,
+              "total_r": 0,
+              "profit_factor": "\u2014"
+            },
+            "Retested zones": {
+              "trades": 20,
+              "win_rate": 30.0,
+              "expectancy": -0.1439254960852781,
+              "total_r": -2.8785099217055623,
+              "profit_factor": 0.8044368809400211
+            },
+            "First retest": {
+              "trades": 0,
+              "win_rate": 0,
+              "expectancy": 0,
+              "total_r": 0,
+              "profit_factor": "\u2014"
+            },
+            "Second/third retest": {
+              "trades": 1,
+              "win_rate": 0.0,
+              "expectancy": -1.016372757638568,
+              "total_r": -1.016372757638568,
+              "profit_factor": 0.0
+            },
+            "Fourth+ retest": {
+              "trades": 19,
+              "win_rate": 31.57894736842105,
+              "expectancy": -0.09800721916142076,
+              "total_r": -1.8621371640669944,
+              "profit_factor": 0.8641044703213633
+            },
+            "Trend aligned": {
+              "trades": 6,
+              "win_rate": 16.666666666666668,
+              "expectancy": -0.5624057921590211,
+              "total_r": -3.3744347529541265,
+              "profit_factor": 0.3613731242861335
+            },
+            "Countertrend": {
+              "trades": 5,
+              "win_rate": 20.0,
+              "expectancy": -0.6128613959273936,
+              "total_r": -3.064306979636968,
+              "profit_factor": 0.27112456722908407
+            },
+            "Range": {
+              "trades": 9,
+              "win_rate": 44.44444444444444,
+              "expectancy": 0.39558131232061466,
+              "total_r": 3.560231810885532,
+              "profit_factor": 1.6805979089219207
+            },
+            "Rejection": {
+              "trades": 20,
+              "win_rate": 30.0,
+              "expectancy": -0.1439254960852781,
+              "total_r": -2.8785099217055623,
+              "profit_factor": 0.8044368809400211
+            },
+            "Breakout-retest": {
+              "trades": 0,
+              "win_rate": 0,
+              "expectancy": 0,
+              "total_r": 0,
+              "profit_factor": "\u2014"
+            },
+            "Strong (>=65)": {
+              "trades": 13,
+              "win_rate": 38.46153846153846,
+              "expectancy": 0.10085074080730999,
+              "total_r": 1.31105963049503,
+              "profit_factor": 1.155010615200246
+            },
+            "Weak (<65)": {
+              "trades": 7,
+              "win_rate": 14.285714285714286,
+              "expectancy": -0.598509936028656,
+              "total_r": -4.1895695522005925,
+              "profit_factor": 0.33086942339010533
+            },
+            "Recent (<=100 bars)": {
+              "trades": 1,
+              "win_rate": 0.0,
+              "expectancy": -1.016372757638568,
+              "total_r": -1.016372757638568,
+              "profit_factor": 0.0
+            },
+            "Old (>100 bars)": {
+              "trades": 19,
+              "win_rate": 31.57894736842105,
+              "expectancy": -0.09800721916142076,
+              "total_r": -1.8621371640669944,
+              "profit_factor": 0.8641044703213633
+            },
+            "Narrow (<=0.5 ATR)": {
+              "trades": 12,
+              "win_rate": 25.0,
+              "expectancy": -0.3664321669141213,
+              "total_r": -4.397186002969455,
+              "profit_factor": 0.5367321589901173
+            },
+            "Wide (>0.5 ATR)": {
+              "trades": 8,
+              "win_rate": 37.5,
+              "expectancy": 0.18983451015798664,
+              "total_r": 1.518676081263893,
+              "profit_factor": 1.2905215653890116
+            },
+            "Stop <0.75 ATR": {
+              "trades": 16,
+              "win_rate": 25.0,
+              "expectancy": -0.2936571009813071,
+              "total_r": -4.6985136157009135,
+              "profit_factor": 0.6292314553133792
+            },
+            "Stop 0.75\u20131.5 ATR": {
+              "trades": 3,
+              "win_rate": 66.66666666666667,
+              "expectancy": 0.9454588172113063,
+              "total_r": 2.836376451633919,
+              "profit_factor": 3.752833771171373
+            },
+            "Stop >1.5 ATR": {
+              "trades": 1,
+              "win_rate": 0.0,
+              "expectancy": -1.016372757638568,
+              "total_r": -1.016372757638568,
+              "profit_factor": 0.0
+            },
+            "Previously failed hold": {
+              "trades": 20,
+              "win_rate": 30.0,
+              "expectancy": -0.1439254960852781,
+              "total_r": -2.8785099217055623,
+              "profit_factor": 0.8044368809400211
+            },
+            "No failed holds": {
+              "trades": 0,
+              "win_rate": 0,
+              "expectancy": 0,
+              "total_r": 0,
+              "profit_factor": "\u2014"
+            },
+            "Impulse >=3 ATR": {
+              "trades": 0,
+              "win_rate": 0,
+              "expectancy": 0,
+              "total_r": 0,
+              "profit_factor": "\u2014"
+            },
+            "Impulse <3 ATR": {
+              "trades": 20,
+              "win_rate": 30.0,
+              "expectancy": -0.1439254960852781,
+              "total_r": -2.8785099217055623,
+              "profit_factor": 0.8044368809400211
+            }
+          }
+        },
+        "Evaluation 30%": {
+          "start": "2025-12-15T00:00:00+00:00",
+          "end": "2026-09-21T00:00:00+00:00",
+          "metrics": {
+            "total_trades": 6,
+            "wins": 1,
+            "losses": 5,
+            "breakeven": 0,
+            "win_rate": 16.666666666666668,
+            "average_win": 2.301592875479092,
+            "average_loss": -0.9764252792137296,
+            "average_R": -0.4300889200982592,
+            "total_R": -2.5805335205895554,
+            "expectancy": -0.4300889200982592,
+            "profit_factor": 0.4714324637994746,
+            "maximum_drawdown_pct": 4.098284719400238,
+            "longest_losing_streak": 3
+          },
+          "diagnostics": {
+            "LONG": {
+              "trades": 4,
+              "win_rate": 25.0,
+              "expectancy": -0.1013192999114308,
+              "total_r": -0.4052771996457232,
+              "profit_factor": 0.8502782961878821
+            },
+            "SHORT": {
+              "trades": 2,
+              "win_rate": 0.0,
+              "expectancy": -1.0876281604719162,
+              "total_r": -2.1752563209438325,
+              "profit_factor": 0.0
+            },
+            "Fresh zones": {
+              "trades": 0,
+              "win_rate": 0,
+              "expectancy": 0,
+              "total_r": 0,
+              "profit_factor": "\u2014"
+            },
+            "Retested zones": {
+              "trades": 6,
+              "win_rate": 16.666666666666668,
+              "expectancy": -0.4300889200982592,
+              "total_r": -2.5805335205895554,
+              "profit_factor": 0.4714324637994746
+            },
+            "First retest": {
+              "trades": 0,
+              "win_rate": 0,
+              "expectancy": 0,
+              "total_r": 0,
+              "profit_factor": "\u2014"
+            },
+            "Second/third retest": {
+              "trades": 0,
+              "win_rate": 0,
+              "expectancy": 0,
+              "total_r": 0,
+              "profit_factor": "\u2014"
+            },
+            "Fourth+ retest": {
+              "trades": 6,
+              "win_rate": 16.666666666666668,
+              "expectancy": -0.4300889200982592,
+              "total_r": -2.5805335205895554,
+              "profit_factor": 0.4714324637994746
+            },
+            "Trend aligned": {
+              "trades": 2,
+              "win_rate": 50.0,
+              "expectancy": 0.6055520710155137,
+              "total_r": 1.2111041420310273,
+              "profit_factor": 2.1106067443737664
+            },
+            "Countertrend": {
+              "trades": 2,
+              "win_rate": 0.0,
+              "expectancy": -1.0655907956982809,
+              "total_r": -2.1311815913965617,
+              "profit_factor": 0.0
+            },
+            "Range": {
+              "trades": 2,
+              "win_rate": 0.0,
+              "expectancy": -0.8302280356120105,
+              "total_r": -1.660456071224021,
+              "profit_factor": 0.0
+            },
+            "Rejection": {
+              "trades": 6,
+              "win_rate": 16.666666666666668,
+              "expectancy": -0.4300889200982592,
+              "total_r": -2.5805335205895554,
+              "profit_factor": 0.4714324637994746
+            },
+            "Breakout-retest": {
+              "trades": 0,
+              "win_rate": 0,
+              "expectancy": 0,
+              "total_r": 0,
+              "profit_factor": "\u2014"
+            },
+            "Strong (>=65)": {
+              "trades": 2,
+              "win_rate": 50.0,
+              "expectancy": 0.634122360848378,
+              "total_r": 1.268244721696756,
+              "profit_factor": 2.2273159990218536
+            },
+            "Weak (<65)": {
+              "trades": 4,
+              "win_rate": 0.0,
+              "expectancy": -0.9621945605715778,
+              "total_r": -3.8487782422863113,
+              "profit_factor": 0.0
+            },
+            "Recent (<=100 bars)": {
+              "trades": 3,
+              "win_rate": 0.0,
+              "expectancy": -1.0738901082815422,
+              "total_r": -3.2216703248446263,
+              "profit_factor": 0.0
+            },
+            "Old (>100 bars)": {
+              "trades": 3,
+              "win_rate": 33.333333333333336,
+              "expectancy": 0.21371226808502372,
+              "total_r": 0.6411368042550711,
+              "profit_factor": 1.3861209070002383
+            },
+            "Narrow (<=0.5 ATR)": {
+              "trades": 5,
+              "win_rate": 20.0,
+              "expectancy": -0.2991531866187576,
+              "total_r": -1.495765933093788,
+              "profit_factor": 0.6061036081928941
+            },
+            "Wide (>0.5 ATR)": {
+              "trades": 1,
+              "win_rate": 0.0,
+              "expectancy": -1.0847675874957674,
+              "total_r": -1.0847675874957674,
+              "profit_factor": 0.0
+            },
+            "Stop <0.75 ATR": {
+              "trades": 4,
+              "win_rate": 25.0,
+              "expectancy": -0.22675289981176905,
+              "total_r": -0.9070115992470762,
+              "profit_factor": 0.7173189757754473
+            },
+            "Stop 0.75\u20131.5 ATR": {
+              "trades": 1,
+              "win_rate": 0.0,
+              "expectancy": -1.0464140039007943,
+              "total_r": -1.0464140039007943,
+              "profit_factor": 0.0
+            },
+            "Stop >1.5 ATR": {
+              "trades": 1,
+              "win_rate": 0.0,
+              "expectancy": -0.6271079174416849,
+              "total_r": -0.6271079174416849,
+              "profit_factor": 0.0
+            },
+            "Previously failed hold": {
+              "trades": 6,
+              "win_rate": 16.666666666666668,
+              "expectancy": -0.4300889200982592,
+              "total_r": -2.5805335205895554,
+              "profit_factor": 0.4714324637994746
+            },
+            "No failed holds": {
+              "trades": 0,
+              "win_rate": 0,
+              "expectancy": 0,
+              "total_r": 0,
+              "profit_factor": "\u2014"
+            },
+            "Impulse >=3 ATR": {
+              "trades": 0,
+              "win_rate": 0,
+              "expectancy": 0,
+              "total_r": 0,
+              "profit_factor": "\u2014"
+            },
+            "Impulse <3 ATR": {
+              "trades": 6,
+              "win_rate": 16.666666666666668,
+              "expectancy": -0.4300889200982592,
+              "total_r": -2.5805335205895554,
+              "profit_factor": 0.4714324637994746
+            }
+          }
+        },
+        "First third": {
+          "start": "2024-03-03T00:00:00+00:00",
+          "end": "2025-01-07T00:00:00+00:00",
+          "metrics": {
+            "total_trades": 8,
+            "wins": 0,
+            "losses": 8,
+            "breakeven": 0,
+            "win_rate": 0.0,
+            "average_win": 0,
+            "average_loss": -1.0454931825748757,
+            "average_R": -1.0454931825748757,
+            "total_R": -8.363945460599005,
+            "expectancy": -1.0454931825748757,
+            "profit_factor": 0.0,
+            "maximum_drawdown_pct": 8.47191690914311,
+            "longest_losing_streak": 8
+          },
+          "diagnostics": {
+            "LONG": {
+              "trades": 2,
+              "win_rate": 0.0,
+              "expectancy": -1.0562743102833447,
+              "total_r": -2.1125486205666895,
+              "profit_factor": 0.0
+            },
+            "SHORT": {
+              "trades": 6,
+              "win_rate": 0.0,
+              "expectancy": -1.0418994733387192,
+              "total_r": -6.251396840032315,
+              "profit_factor": 0.0
+            },
+            "Fresh zones": {
+              "trades": 0,
+              "win_rate": 0,
+              "expectancy": 0,
+              "total_r": 0,
+              "profit_factor": "\u2014"
+            },
+            "Retested zones": {
+              "trades": 8,
+              "win_rate": 0.0,
+              "expectancy": -1.0454931825748757,
+              "total_r": -8.363945460599005,
+              "profit_factor": 0.0
+            },
+            "First retest": {
+              "trades": 0,
+              "win_rate": 0,
+              "expectancy": 0,
+              "total_r": 0,
+              "profit_factor": "\u2014"
+            },
+            "Second/third retest": {
+              "trades": 1,
+              "win_rate": 0.0,
+              "expectancy": -1.016372757638568,
+              "total_r": -1.016372757638568,
+              "profit_factor": 0.0
+            },
+            "Fourth+ retest": {
+              "trades": 7,
+              "win_rate": 0.0,
+              "expectancy": -1.0496532432800625,
+              "total_r": -7.347572702960437,
+              "profit_factor": 0.0
+            },
+            "Trend aligned": {
+              "trades": 4,
+              "win_rate": 0.0,
+              "expectancy": -1.055998919875875,
+              "total_r": -4.2239956795035,
+              "profit_factor": 0.0
+            },
+            "Countertrend": {
+              "trades": 3,
+              "win_rate": 0.0,
+              "expectancy": -1.0411923411523123,
+              "total_r": -3.123577023456937,
+              "profit_factor": 0.0
+            },
+            "Range": {
+              "trades": 1,
+              "win_rate": 0.0,
+              "expectancy": -1.016372757638568,
+              "total_r": -1.016372757638568,
+              "profit_factor": 0.0
+            },
+            "Rejection": {
+              "trades": 8,
+              "win_rate": 0.0,
+              "expectancy": -1.0454931825748757,
+              "total_r": -8.363945460599005,
+              "profit_factor": 0.0
+            },
+            "Breakout-retest": {
+              "trades": 0,
+              "win_rate": 0,
+              "expectancy": 0,
+              "total_r": 0,
+              "profit_factor": "\u2014"
+            },
+            "Strong (>=65)": {
+              "trades": 2,
+              "win_rate": 0.0,
+              "expectancy": -1.0513658662201726,
+              "total_r": -2.102731732440345,
+              "profit_factor": 0.0
+            },
+            "Weak (<65)": {
+              "trades": 6,
+              "win_rate": 0.0,
+              "expectancy": -1.0435356213597766,
+              "total_r": -6.26121372815866,
+              "profit_factor": 0.0
+            },
+            "Recent (<=100 bars)": {
+              "trades": 1,
+              "win_rate": 0.0,
+              "expectancy": -1.016372757638568,
+              "total_r": -1.016372757638568,
+              "profit_factor": 0.0
+            },
+            "Old (>100 bars)": {
+              "trades": 7,
+              "win_rate": 0.0,
+              "expectancy": -1.0496532432800625,
+              "total_r": -7.347572702960437,
+              "profit_factor": 0.0
+            },
+            "Narrow (<=0.5 ATR)": {
+              "trades": 6,
+              "win_rate": 0.0,
+              "expectancy": -1.0510996968556634,
+              "total_r": -6.306598181133981,
+              "profit_factor": 0.0
+            },
+            "Wide (>0.5 ATR)": {
+              "trades": 2,
+              "win_rate": 0.0,
+              "expectancy": -1.028673639732512,
+              "total_r": -2.057347279465024,
+              "profit_factor": 0.0
+            },
+            "Stop <0.75 ATR": {
+              "trades": 6,
+              "win_rate": 0.0,
+              "expectancy": -1.0528708031295737,
+              "total_r": -6.317224818777442,
+              "profit_factor": 0.0
+            },
+            "Stop 0.75\u20131.5 ATR": {
+              "trades": 1,
+              "win_rate": 0.0,
+              "expectancy": -1.030347884182995,
+              "total_r": -1.030347884182995,
+              "profit_factor": 0.0
+            },
+            "Stop >1.5 ATR": {
+              "trades": 1,
+              "win_rate": 0.0,
+              "expectancy": -1.016372757638568,
+              "total_r": -1.016372757638568,
+              "profit_factor": 0.0
+            },
+            "Previously failed hold": {
+              "trades": 8,
+              "win_rate": 0.0,
+              "expectancy": -1.0454931825748757,
+              "total_r": -8.363945460599005,
+              "profit_factor": 0.0
+            },
+            "No failed holds": {
+              "trades": 0,
+              "win_rate": 0,
+              "expectancy": 0,
+              "total_r": 0,
+              "profit_factor": "\u2014"
+            },
+            "Impulse >=3 ATR": {
+              "trades": 0,
+              "win_rate": 0,
+              "expectancy": 0,
+              "total_r": 0,
+              "profit_factor": "\u2014"
+            },
+            "Impulse <3 ATR": {
+              "trades": 8,
+              "win_rate": 0.0,
+              "expectancy": -1.0454931825748757,
+              "total_r": -8.363945460599005,
+              "profit_factor": 0.0
+            }
+          }
+        },
+        "Middle third": {
+          "start": "2025-01-07T00:00:00+00:00",
+          "end": "2025-11-14T00:00:00+00:00",
+          "metrics": {
+            "total_trades": 12,
+            "wins": 6,
+            "losses": 6,
+            "breakeven": 0,
+            "win_rate": 50.0,
+            "average_win": 1.9734289661415678,
+            "average_loss": -1.0591897096593275,
+            "average_R": 0.45711962824112023,
+            "total_R": 5.485435538893443,
+            "expectancy": 0.45711962824112023,
+            "profit_factor": 1.8631496776685,
+            "maximum_drawdown_pct": 4.045350092430867,
+            "longest_losing_streak": 3
+          },
+          "diagnostics": {
+            "LONG": {
+              "trades": 7,
+              "win_rate": 57.142857142857146,
+              "expectancy": 0.5047871199411947,
+              "total_r": 3.5335098395883633,
+              "profit_factor": 2.1063420370795876
+            },
+            "SHORT": {
+              "trades": 5,
+              "win_rate": 40.0,
+              "expectancy": 0.39038513986101586,
+              "total_r": 1.9519256993050793,
+              "profit_factor": 1.6174496993048322
+            },
+            "Fresh zones": {
+              "trades": 0,
+              "win_rate": 0,
+              "expectancy": 0,
+              "total_r": 0,
+              "profit_factor": "\u2014"
+            },
+            "Retested zones": {
+              "trades": 12,
+              "win_rate": 50.0,
+              "expectancy": 0.45711962824112023,
+              "total_r": 5.485435538893443,
+              "profit_factor": 1.8631496776685
+            },
+            "First retest": {
+              "trades": 0,
+              "win_rate": 0,
+              "expectancy": 0,
+              "total_r": 0,
+              "profit_factor": "\u2014"
+            },
+            "Second/third retest": {
+              "trades": 0,
+              "win_rate": 0,
+              "expectancy": 0,
+              "total_r": 0,
+              "profit_factor": "\u2014"
+            },
+            "Fourth+ retest": {
+              "trades": 12,
+              "win_rate": 50.0,
+              "expectancy": 0.45711962824112023,
+              "total_r": 5.485435538893443,
+              "profit_factor": 1.8631496776685
+            },
+            "Trend aligned": {
+              "trades": 2,
+              "win_rate": 50.0,
+              "expectancy": 0.424780463274687,
+              "total_r": 0.849560926549374,
+              "profit_factor": 1.8015517856825713
+            },
+            "Countertrend": {
+              "trades": 2,
+              "win_rate": 50.0,
+              "expectancy": 0.029635021909984238,
+              "total_r": 0.059270043819968476,
+              "profit_factor": 1.0548501990017167
+            },
+            "Range": {
+              "trades": 8,
+              "win_rate": 50.0,
+              "expectancy": 0.5720755710655125,
+              "total_r": 4.5766045685241,
+              "profit_factor": 2.0858768227237237
+            },
+            "Rejection": {
+              "trades": 12,
+              "win_rate": 50.0,
+              "expectancy": 0.45711962824112023,
+              "total_r": 5.485435538893443,
+              "profit_factor": 1.8631496776685
+            },
+            "Breakout-retest": {
+              "trades": 0,
+              "win_rate": 0,
+              "expectancy": 0,
+              "total_r": 0,
+              "profit_factor": "\u2014"
+            },
+            "Strong (>=65)": {
+              "trades": 11,
+              "win_rate": 45.45454545454545,
+              "expectancy": 0.31034466935776134,
+              "total_r": 3.413791362935375,
+              "profit_factor": 1.5371702745666733
+            },
+            "Weak (<65)": {
+              "trades": 1,
+              "win_rate": 100.0,
+              "expectancy": 2.0716441759580677,
+              "total_r": 2.0716441759580677,
+              "profit_factor": "\u221e"
+            },
+            "Recent (<=100 bars)": {
+              "trades": 0,
+              "win_rate": 0,
+              "expectancy": 0,
+              "total_r": 0,
+              "profit_factor": "\u2014"
+            },
+            "Old (>100 bars)": {
+              "trades": 12,
+              "win_rate": 50.0,
+              "expectancy": 0.45711962824112023,
+              "total_r": 5.485435538893443,
+              "profit_factor": 1.8631496776685
+            },
+            "Narrow (<=0.5 ATR)": {
+              "trades": 6,
+              "win_rate": 50.0,
+              "expectancy": 0.3182353630274209,
+              "total_r": 1.9094121781645255,
+              "profit_factor": 1.5994877337461897
+            },
+            "Wide (>0.5 ATR)": {
+              "trades": 6,
+              "win_rate": 50.0,
+              "expectancy": 0.5960038934548195,
+              "total_r": 3.576023360728917,
+              "profit_factor": 2.1280598469868677
+            },
+            "Stop <0.75 ATR": {
+              "trades": 10,
+              "win_rate": 40.0,
+              "expectancy": 0.16187112030765288,
+              "total_r": 1.6187112030765287,
+              "profit_factor": 1.2547090460305994
+            },
+            "Stop 0.75\u20131.5 ATR": {
+              "trades": 2,
+              "win_rate": 100.0,
+              "expectancy": 1.933362167908457,
+              "total_r": 3.866724335816914,
+              "profit_factor": "\u221e"
+            },
+            "Stop >1.5 ATR": {
+              "trades": 0,
+              "win_rate": 0,
+              "expectancy": 0,
+              "total_r": 0,
+              "profit_factor": "\u2014"
+            },
+            "Previously failed hold": {
+              "trades": 12,
+              "win_rate": 50.0,
+              "expectancy": 0.45711962824112023,
+              "total_r": 5.485435538893443,
+              "profit_factor": 1.8631496776685
+            },
+            "No failed holds": {
+              "trades": 0,
+              "win_rate": 0,
+              "expectancy": 0,
+              "total_r": 0,
+              "profit_factor": "\u2014"
+            },
+            "Impulse >=3 ATR": {
+              "trades": 0,
+              "win_rate": 0,
+              "expectancy": 0,
+              "total_r": 0,
+              "profit_factor": "\u2014"
+            },
+            "Impulse <3 ATR": {
+              "trades": 12,
+              "win_rate": 50.0,
+              "expectancy": 0.45711962824112023,
+              "total_r": 5.485435538893443,
+              "profit_factor": 1.8631496776685
+            }
+          }
+        },
+        "Latest third": {
+          "start": "2025-11-14T00:00:00+00:00",
+          "end": "2026-09-21T00:00:00+00:00",
+          "metrics": {
+            "total_trades": 6,
+            "wins": 1,
+            "losses": 5,
+            "breakeven": 0,
+            "win_rate": 16.666666666666668,
+            "average_win": 2.301592875479092,
+            "average_loss": -0.9764252792137296,
+            "average_R": -0.4300889200982592,
+            "total_R": -2.5805335205895554,
+            "expectancy": -0.4300889200982592,
+            "profit_factor": 0.4714324637994746,
+            "maximum_drawdown_pct": 4.098284719400238,
+            "longest_losing_streak": 3
+          },
+          "diagnostics": {
+            "LONG": {
+              "trades": 4,
+              "win_rate": 25.0,
+              "expectancy": -0.1013192999114308,
+              "total_r": -0.4052771996457232,
+              "profit_factor": 0.8502782961878821
+            },
+            "SHORT": {
+              "trades": 2,
+              "win_rate": 0.0,
+              "expectancy": -1.0876281604719162,
+              "total_r": -2.1752563209438325,
+              "profit_factor": 0.0
+            },
+            "Fresh zones": {
+              "trades": 0,
+              "win_rate": 0,
+              "expectancy": 0,
+              "total_r": 0,
+              "profit_factor": "\u2014"
+            },
+            "Retested zones": {
+              "trades": 6,
+              "win_rate": 16.666666666666668,
+              "expectancy": -0.4300889200982592,
+              "total_r": -2.5805335205895554,
+              "profit_factor": 0.4714324637994746
+            },
+            "First retest": {
+              "trades": 0,
+              "win_rate": 0,
+              "expectancy": 0,
+              "total_r": 0,
+              "profit_factor": "\u2014"
+            },
+            "Second/third retest": {
+              "trades": 0,
+              "win_rate": 0,
+              "expectancy": 0,
+              "total_r": 0,
+              "profit_factor": "\u2014"
+            },
+            "Fourth+ retest": {
+              "trades": 6,
+              "win_rate": 16.666666666666668,
+              "expectancy": -0.4300889200982592,
+              "total_r": -2.5805335205895554,
+              "profit_factor": 0.4714324637994746
+            },
+            "Trend aligned": {
+              "trades": 2,
+              "win_rate": 50.0,
+              "expectancy": 0.6055520710155137,
+              "total_r": 1.2111041420310273,
+              "profit_factor": 2.1106067443737664
+            },
+            "Countertrend": {
+              "trades": 2,
+              "win_rate": 0.0,
+              "expectancy": -1.0655907956982809,
+              "total_r": -2.1311815913965617,
+              "profit_factor": 0.0
+            },
+            "Range": {
+              "trades": 2,
+              "win_rate": 0.0,
+              "expectancy": -0.8302280356120105,
+              "total_r": -1.660456071224021,
+              "profit_factor": 0.0
+            },
+            "Rejection": {
+              "trades": 6,
+              "win_rate": 16.666666666666668,
+              "expectancy": -0.4300889200982592,
+              "total_r": -2.5805335205895554,
+              "profit_factor": 0.4714324637994746
+            },
+            "Breakout-retest": {
+              "trades": 0,
+              "win_rate": 0,
+              "expectancy": 0,
+              "total_r": 0,
+              "profit_factor": "\u2014"
+            },
+            "Strong (>=65)": {
+              "trades": 2,
+              "win_rate": 50.0,
+              "expectancy": 0.634122360848378,
+              "total_r": 1.268244721696756,
+              "profit_factor": 2.2273159990218536
+            },
+            "Weak (<65)": {
+              "trades": 4,
+              "win_rate": 0.0,
+              "expectancy": -0.9621945605715778,
+              "total_r": -3.8487782422863113,
+              "profit_factor": 0.0
+            },
+            "Recent (<=100 bars)": {
+              "trades": 3,
+              "win_rate": 0.0,
+              "expectancy": -1.0738901082815422,
+              "total_r": -3.2216703248446263,
+              "profit_factor": 0.0
+            },
+            "Old (>100 bars)": {
+              "trades": 3,
+              "win_rate": 33.333333333333336,
+              "expectancy": 0.21371226808502372,
+              "total_r": 0.6411368042550711,
+              "profit_factor": 1.3861209070002383
+            },
+            "Narrow (<=0.5 ATR)": {
+              "trades": 5,
+              "win_rate": 20.0,
+              "expectancy": -0.2991531866187576,
+              "total_r": -1.495765933093788,
+              "profit_factor": 0.6061036081928941
+            },
+            "Wide (>0.5 ATR)": {
+              "trades": 1,
+              "win_rate": 0.0,
+              "expectancy": -1.0847675874957674,
+              "total_r": -1.0847675874957674,
+              "profit_factor": 0.0
+            },
+            "Stop <0.75 ATR": {
+              "trades": 4,
+              "win_rate": 25.0,
+              "expectancy": -0.22675289981176905,
+              "total_r": -0.9070115992470762,
+              "profit_factor": 0.7173189757754473
+            },
+            "Stop 0.75\u20131.5 ATR": {
+              "trades": 1,
+              "win_rate": 0.0,
+              "expectancy": -1.0464140039007943,
+              "total_r": -1.0464140039007943,
+              "profit_factor": 0.0
+            },
+            "Stop >1.5 ATR": {
+              "trades": 1,
+              "win_rate": 0.0,
+              "expectancy": -0.6271079174416849,
+              "total_r": -0.6271079174416849,
+              "profit_factor": 0.0
+            },
+            "Previously failed hold": {
+              "trades": 6,
+              "win_rate": 16.666666666666668,
+              "expectancy": -0.4300889200982592,
+              "total_r": -2.5805335205895554,
+              "profit_factor": 0.4714324637994746
+            },
+            "No failed holds": {
+              "trades": 0,
+              "win_rate": 0,
+              "expectancy": 0,
+              "total_r": 0,
+              "profit_factor": "\u2014"
+            },
+            "Impulse >=3 ATR": {
+              "trades": 0,
+              "win_rate": 0,
+              "expectancy": 0,
+              "total_r": 0,
+              "profit_factor": "\u2014"
+            },
+            "Impulse <3 ATR": {
+              "trades": 6,
+              "win_rate": 16.666666666666668,
+              "expectancy": -0.4300889200982592,
+              "total_r": -2.5805335205895554,
+              "profit_factor": 0.4714324637994746
+            }
+          }
+        },
+        "User six months": {
+          "start": "2026-03-21T00:00:00+00:00",
+          "end": "2026-09-21T00:00:00+00:00",
+          "metrics": {
+            "total_trades": 4,
+            "wins": 1,
+            "losses": 3,
+            "breakeven": 0,
+            "win_rate": 25.0,
+            "average_win": 2.301592875479092,
+            "average_loss": -0.9150745529065961,
+            "average_R": -0.11090769581017407,
+            "total_R": -0.44363078324069627,
+            "expectancy": -0.11090769581017407,
+            "profit_factor": 0.8383990383327894,
+            "maximum_drawdown_pct": 4.098284719400225,
+            "longest_losing_streak": 2
+          },
+          "diagnostics": {
+            "LONG": {
+              "trades": 3,
+              "win_rate": 33.333333333333336,
+              "expectancy": 0.21371226808502372,
+              "total_r": 0.6411368042550711,
+              "profit_factor": 1.3861209070002383
+            },
+            "SHORT": {
+              "trades": 1,
+              "win_rate": 0.0,
+              "expectancy": -1.0847675874957674,
+              "total_r": -1.0847675874957674,
+              "profit_factor": 0.0
+            },
+            "Fresh zones": {
+              "trades": 0,
+              "win_rate": 0,
+              "expectancy": 0,
+              "total_r": 0,
+              "profit_factor": "\u2014"
+            },
+            "Retested zones": {
+              "trades": 4,
+              "win_rate": 25.0,
+              "expectancy": -0.11090769581017407,
+              "total_r": -0.44363078324069627,
+              "profit_factor": 0.8383990383327894
+            },
+            "First retest": {
+              "trades": 0,
+              "win_rate": 0,
+              "expectancy": 0,
+              "total_r": 0,
+              "profit_factor": "\u2014"
+            },
+            "Second/third retest": {
+              "trades": 0,
+              "win_rate": 0,
+              "expectancy": 0,
+              "total_r": 0,
+              "profit_factor": "\u2014"
+            },
+            "Fourth+ retest": {
+              "trades": 4,
+              "win_rate": 25.0,
+              "expectancy": -0.11090769581017407,
+              "total_r": -0.44363078324069627,
+              "profit_factor": 0.8383990383327894
+            },
+            "Trend aligned": {
+              "trades": 1,
+              "win_rate": 100.0,
+              "expectancy": 2.301592875479092,
+              "total_r": 2.301592875479092,
+              "profit_factor": "\u221e"
+            },
+            "Countertrend": {
+              "trades": 1,
+              "win_rate": 0.0,
+              "expectancy": -1.0847675874957674,
+              "total_r": -1.0847675874957674,
+              "profit_factor": 0.0
+            },
+            "Range": {
+              "trades": 2,
+              "win_rate": 0.0,
+              "expectancy": -0.8302280356120105,
+              "total_r": -1.660456071224021,
+              "profit_factor": 0.0
+            },
+            "Rejection": {
+              "trades": 4,
+              "win_rate": 25.0,
+              "expectancy": -0.11090769581017407,
+              "total_r": -0.44363078324069627,
+              "profit_factor": 0.8383990383327894
+            },
+            "Breakout-retest": {
+              "trades": 0,
+              "win_rate": 0,
+              "expectancy": 0,
+              "total_r": 0,
+              "profit_factor": "\u2014"
+            },
+            "Strong (>=65)": {
+              "trades": 2,
+              "win_rate": 50.0,
+              "expectancy": 0.634122360848378,
+              "total_r": 1.268244721696756,
+              "profit_factor": 2.2273159990218536
+            },
+            "Weak (<65)": {
+              "trades": 2,
+              "win_rate": 0.0,
+              "expectancy": -0.8559377524687262,
+              "total_r": -1.7118755049374523,
+              "profit_factor": 0.0
+            },
+            "Recent (<=100 bars)": {
+              "trades": 1,
+              "win_rate": 0.0,
+              "expectancy": -1.0847675874957674,
+              "total_r": -1.0847675874957674,
+              "profit_factor": 0.0
+            },
+            "Old (>100 bars)": {
+              "trades": 3,
+              "win_rate": 33.333333333333336,
+              "expectancy": 0.21371226808502372,
+              "total_r": 0.6411368042550711,
+              "profit_factor": 1.3861209070002383
+            },
+            "Narrow (<=0.5 ATR)": {
+              "trades": 3,
+              "win_rate": 33.333333333333336,
+              "expectancy": 0.21371226808502372,
+              "total_r": 0.6411368042550711,
+              "profit_factor": 1.3861209070002383
+            },
+            "Wide (>0.5 ATR)": {
+              "trades": 1,
+              "win_rate": 0.0,
+              "expectancy": -1.0847675874957674,
+              "total_r": -1.0847675874957674,
+              "profit_factor": 0.0
+            },
+            "Stop <0.75 ATR": {
+              "trades": 3,
+              "win_rate": 33.333333333333336,
+              "expectancy": 0.06115904473366288,
+              "total_r": 0.18347713420098866,
+              "profit_factor": 1.08662280848273
+            },
+            "Stop 0.75\u20131.5 ATR": {
+              "trades": 0,
+              "win_rate": 0,
+              "expectancy": 0,
+              "total_r": 0,
+              "profit_factor": "\u2014"
+            },
+            "Stop >1.5 ATR": {
+              "trades": 1,
+              "win_rate": 0.0,
+              "expectancy": -0.6271079174416849,
+              "total_r": -0.6271079174416849,
+              "profit_factor": 0.0
+            },
+            "Previously failed hold": {
+              "trades": 4,
+              "win_rate": 25.0,
+              "expectancy": -0.11090769581017407,
+              "total_r": -0.44363078324069627,
+              "profit_factor": 0.8383990383327894
+            },
+            "No failed holds": {
+              "trades": 0,
+              "win_rate": 0,
+              "expectancy": 0,
+              "total_r": 0,
+              "profit_factor": "\u2014"
+            },
+            "Impulse >=3 ATR": {
+              "trades": 0,
+              "win_rate": 0,
+              "expectancy": 0,
+              "total_r": 0,
+              "profit_factor": "\u2014"
+            },
+            "Impulse <3 ATR": {
+              "trades": 4,
+              "win_rate": 25.0,
+              "expectancy": -0.11090769581017407,
+              "total_r": -0.44363078324069627,
+              "profit_factor": 0.8383990383327894
+            }
+          }
+        }
+      },
+      "execution_fixed": {
+        "Full": {
+          "start": "2024-03-03T00:00:00+00:00",
+          "end": "2026-09-21T00:00:00+00:00",
+          "metrics": {
+            "total_trades": 26,
+            "wins": 7,
+            "losses": 19,
+            "breakeven": 0,
+            "win_rate": 26.923076923076923,
+            "average_win": 2.0203095246183573,
+            "average_loss": -1.0316426376117693,
+            "average_R": -0.20996320931904297,
+            "total_R": -5.459043442295117,
+            "expectancy": -0.20996320931904297,
+            "profit_factor": 0.7214945704692814,
+            "maximum_drawdown_pct": 11.31024354593008,
+            "longest_losing_streak": 9
+          },
+          "diagnostics": {
+            "LONG": {
+              "trades": 13,
+              "win_rate": 38.46153846153846,
+              "expectancy": 0.0781295399519962,
+              "total_r": 1.0156840193759507,
+              "profit_factor": 1.1267499997824213
+            },
+            "SHORT": {
+              "trades": 13,
+              "win_rate": 15.384615384615385,
+              "expectancy": -0.49805595859008217,
+              "total_r": -6.474727461671068,
+              "profit_factor": 0.4412521614293031
+            },
+            "Fresh zones": {
+              "trades": 0,
+              "win_rate": 0,
+              "expectancy": 0,
+              "total_r": 0,
+              "profit_factor": "\u2014"
+            },
+            "Retested zones": {
+              "trades": 26,
+              "win_rate": 26.923076923076923,
+              "expectancy": -0.209963209319043,
+              "total_r": -5.459043442295117,
+              "profit_factor": 0.7214945704692814
+            },
+            "First retest": {
+              "trades": 0,
+              "win_rate": 0,
+              "expectancy": 0,
+              "total_r": 0,
+              "profit_factor": "\u2014"
+            },
+            "Second/third retest": {
+              "trades": 1,
+              "win_rate": 0.0,
+              "expectancy": -1.016372757638568,
+              "total_r": -1.016372757638568,
+              "profit_factor": 0.0
+            },
+            "Fourth+ retest": {
+              "trades": 25,
+              "win_rate": 28.0,
+              "expectancy": -0.17770682738626198,
+              "total_r": -4.44267068465655,
+              "profit_factor": 0.7609518663349085
+            },
+            "Trend aligned": {
+              "trades": 8,
+              "win_rate": 25.0,
+              "expectancy": -0.27041632636538737,
+              "total_r": -2.163330610923099,
+              "profit_factor": 0.660620997353897
+            },
+            "Countertrend": {
+              "trades": 7,
+              "win_rate": 14.285714285714286,
+              "expectancy": -0.74221265300479,
+              "total_r": -5.19548857103353,
+              "profit_factor": 0.1799193932774141
+            },
+            "Range": {
+              "trades": 11,
+              "win_rate": 36.36363636363637,
+              "expectancy": 0.17270688542377374,
+              "total_r": 1.8997757396615111,
+              "profit_factor": 1.275669747956819
+            },
+            "Rejection": {
+              "trades": 26,
+              "win_rate": 26.923076923076923,
+              "expectancy": -0.209963209319043,
+              "total_r": -5.459043442295117,
+              "profit_factor": 0.7214945704692814
+            },
+            "Breakout-retest": {
+              "trades": 0,
+              "win_rate": 0,
+              "expectancy": 0,
+              "total_r": 0,
+              "profit_factor": "\u2014"
+            },
+            "Strong (>=65)": {
+              "trades": 15,
+              "win_rate": 40.0,
+              "expectancy": 0.1719536234794524,
+              "total_r": 2.579304352191786,
+              "profit_factor": 1.2717569349908766
+            },
+            "Weak (<65)": {
+              "trades": 11,
+              "win_rate": 9.090909090909092,
+              "expectancy": -0.7307588904079003,
+              "total_r": -8.038347794486903,
+              "profit_factor": 0.20491056590491916
+            },
+            "Recent (<=100 bars)": {
+              "trades": 4,
+              "win_rate": 0.0,
+              "expectancy": -1.0595107706207987,
+              "total_r": -4.238043082483195,
+              "profit_factor": 0.0
+            },
+            "Old (>100 bars)": {
+              "trades": 22,
+              "win_rate": 31.818181818181817,
+              "expectancy": -0.05550001635508742,
+              "total_r": -1.2210003598119232,
+              "profit_factor": 0.9205241759555477
+            },
+            "Narrow (<=0.5 ATR)": {
+              "trades": 17,
+              "win_rate": 23.529411764705884,
+              "expectancy": -0.34664423153313195,
+              "total_r": -5.892951936063243,
+              "profit_factor": 0.5565551471571001
+            },
+            "Wide (>0.5 ATR)": {
+              "trades": 9,
+              "win_rate": 33.333333333333336,
+              "expectancy": 0.048212054863125076,
+              "total_r": 0.4339084937681257,
+              "profit_factor": 1.0687414622678921
+            },
+            "Stop <0.75 ATR": {
+              "trades": 20,
+              "win_rate": 25.0,
+              "expectancy": -0.2802762607473995,
+              "total_r": -5.605525214947989,
+              "profit_factor": 0.6470287344405031
+            },
+            "Stop 0.75\u20131.5 ATR": {
+              "trades": 4,
+              "win_rate": 50.0,
+              "expectancy": 0.44749061193328116,
+              "total_r": 1.7899624477331246,
+              "profit_factor": 1.8619006627595176
+            },
+            "Stop >1.5 ATR": {
+              "trades": 2,
+              "win_rate": 0.0,
+              "expectancy": -0.8217403375401264,
+              "total_r": -1.6434806750802529,
+              "profit_factor": 0.0
+            },
+            "Previously failed hold": {
+              "trades": 26,
+              "win_rate": 26.923076923076923,
+              "expectancy": -0.209963209319043,
+              "total_r": -5.459043442295117,
+              "profit_factor": 0.7214945704692814
+            },
+            "No failed holds": {
+              "trades": 0,
+              "win_rate": 0,
+              "expectancy": 0,
+              "total_r": 0,
+              "profit_factor": "\u2014"
+            },
+            "Impulse >=3 ATR": {
+              "trades": 0,
+              "win_rate": 0,
+              "expectancy": 0,
+              "total_r": 0,
+              "profit_factor": "\u2014"
+            },
+            "Impulse <3 ATR": {
+              "trades": 26,
+              "win_rate": 26.923076923076923,
+              "expectancy": -0.209963209319043,
+              "total_r": -5.459043442295117,
+              "profit_factor": 0.7214945704692814
+            }
+          }
+        },
+        "Development 70%": {
+          "start": "2024-03-03T00:00:00+00:00",
+          "end": "2025-12-15T00:00:00+00:00",
+          "metrics": {
+            "total_trades": 20,
+            "wins": 6,
+            "losses": 14,
+            "breakeven": 0,
+            "win_rate": 30.0,
+            "average_win": 1.9734289661415678,
+            "average_loss": -1.0513631227539264,
+            "average_R": -0.1439254960852781,
+            "total_R": -2.8785099217055623,
+            "expectancy": -0.1439254960852781,
+            "profit_factor": 0.8044368809400211,
+            "maximum_drawdown_pct": 11.31024354593008,
+            "longest_losing_streak": 9
+          },
+          "diagnostics": {
+            "LONG": {
+              "trades": 9,
+              "win_rate": 44.44444444444444,
+              "expectancy": 0.1578845798912971,
+              "total_r": 1.4209612190216738,
+              "profit_factor": 1.2677817185038749
+            },
+            "SHORT": {
+              "trades": 11,
+              "win_rate": 18.181818181818183,
+              "expectancy": -0.3908610127933851,
+              "total_r": -4.299471140727237,
+              "profit_factor": 0.543225012368808
+            },
+            "Fresh zones": {
+              "trades": 0,
+              "win_rate": 0,
+              "expectancy": 0,
+              "total_r": 0,
+              "profit_factor": "\u2014"
+            },
+            "Retested zones": {
+              "trades": 20,
+              "win_rate": 30.0,
+              "expectancy": -0.1439254960852781,
+              "total_r": -2.8785099217055623,
+              "profit_factor": 0.8044368809400211
+            },
+            "First retest": {
+              "trades": 0,
+              "win_rate": 0,
+              "expectancy": 0,
+              "total_r": 0,
+              "profit_factor": "\u2014"
+            },
+            "Second/third retest": {
+              "trades": 1,
+              "win_rate": 0.0,
+              "expectancy": -1.016372757638568,
+              "total_r": -1.016372757638568,
+              "profit_factor": 0.0
+            },
+            "Fourth+ retest": {
+              "trades": 19,
+              "win_rate": 31.57894736842105,
+              "expectancy": -0.09800721916142076,
+              "total_r": -1.8621371640669944,
+              "profit_factor": 0.8641044703213633
+            },
+            "Trend aligned": {
+              "trades": 6,
+              "win_rate": 16.666666666666668,
+              "expectancy": -0.5624057921590211,
+              "total_r": -3.3744347529541265,
+              "profit_factor": 0.3613731242861335
+            },
+            "Countertrend": {
+              "trades": 5,
+              "win_rate": 20.0,
+              "expectancy": -0.6128613959273936,
+              "total_r": -3.064306979636968,
+              "profit_factor": 0.27112456722908407
+            },
+            "Range": {
+              "trades": 9,
+              "win_rate": 44.44444444444444,
+              "expectancy": 0.39558131232061466,
+              "total_r": 3.560231810885532,
+              "profit_factor": 1.6805979089219207
+            },
+            "Rejection": {
+              "trades": 20,
+              "win_rate": 30.0,
+              "expectancy": -0.1439254960852781,
+              "total_r": -2.8785099217055623,
+              "profit_factor": 0.8044368809400211
+            },
+            "Breakout-retest": {
+              "trades": 0,
+              "win_rate": 0,
+              "expectancy": 0,
+              "total_r": 0,
+              "profit_factor": "\u2014"
+            },
+            "Strong (>=65)": {
+              "trades": 13,
+              "win_rate": 38.46153846153846,
+              "expectancy": 0.10085074080730999,
+              "total_r": 1.31105963049503,
+              "profit_factor": 1.155010615200246
+            },
+            "Weak (<65)": {
+              "trades": 7,
+              "win_rate": 14.285714285714286,
+              "expectancy": -0.598509936028656,
+              "total_r": -4.1895695522005925,
+              "profit_factor": 0.33086942339010533
+            },
+            "Recent (<=100 bars)": {
+              "trades": 1,
+              "win_rate": 0.0,
+              "expectancy": -1.016372757638568,
+              "total_r": -1.016372757638568,
+              "profit_factor": 0.0
+            },
+            "Old (>100 bars)": {
+              "trades": 19,
+              "win_rate": 31.57894736842105,
+              "expectancy": -0.09800721916142076,
+              "total_r": -1.8621371640669944,
+              "profit_factor": 0.8641044703213633
+            },
+            "Narrow (<=0.5 ATR)": {
+              "trades": 12,
+              "win_rate": 25.0,
+              "expectancy": -0.3664321669141213,
+              "total_r": -4.397186002969455,
+              "profit_factor": 0.5367321589901173
+            },
+            "Wide (>0.5 ATR)": {
+              "trades": 8,
+              "win_rate": 37.5,
+              "expectancy": 0.18983451015798664,
+              "total_r": 1.518676081263893,
+              "profit_factor": 1.2905215653890116
+            },
+            "Stop <0.75 ATR": {
+              "trades": 16,
+              "win_rate": 25.0,
+              "expectancy": -0.2936571009813071,
+              "total_r": -4.6985136157009135,
+              "profit_factor": 0.6292314553133792
+            },
+            "Stop 0.75\u20131.5 ATR": {
+              "trades": 3,
+              "win_rate": 66.66666666666667,
+              "expectancy": 0.9454588172113063,
+              "total_r": 2.836376451633919,
+              "profit_factor": 3.752833771171373
+            },
+            "Stop >1.5 ATR": {
+              "trades": 1,
+              "win_rate": 0.0,
+              "expectancy": -1.016372757638568,
+              "total_r": -1.016372757638568,
+              "profit_factor": 0.0
+            },
+            "Previously failed hold": {
+              "trades": 20,
+              "win_rate": 30.0,
+              "expectancy": -0.1439254960852781,
+              "total_r": -2.8785099217055623,
+              "profit_factor": 0.8044368809400211
+            },
+            "No failed holds": {
+              "trades": 0,
+              "win_rate": 0,
+              "expectancy": 0,
+              "total_r": 0,
+              "profit_factor": "\u2014"
+            },
+            "Impulse >=3 ATR": {
+              "trades": 0,
+              "win_rate": 0,
+              "expectancy": 0,
+              "total_r": 0,
+              "profit_factor": "\u2014"
+            },
+            "Impulse <3 ATR": {
+              "trades": 20,
+              "win_rate": 30.0,
+              "expectancy": -0.1439254960852781,
+              "total_r": -2.8785099217055623,
+              "profit_factor": 0.8044368809400211
+            }
+          }
+        },
+        "Evaluation 30%": {
+          "start": "2025-12-15T00:00:00+00:00",
+          "end": "2026-09-21T00:00:00+00:00",
+          "metrics": {
+            "total_trades": 6,
+            "wins": 1,
+            "losses": 5,
+            "breakeven": 0,
+            "win_rate": 16.666666666666668,
+            "average_win": 2.301592875479092,
+            "average_loss": -0.9764252792137296,
+            "average_R": -0.4300889200982592,
+            "total_R": -2.5805335205895554,
+            "expectancy": -0.4300889200982592,
+            "profit_factor": 0.4714324637994746,
+            "maximum_drawdown_pct": 4.098284719400238,
+            "longest_losing_streak": 3
+          },
+          "diagnostics": {
+            "LONG": {
+              "trades": 4,
+              "win_rate": 25.0,
+              "expectancy": -0.1013192999114308,
+              "total_r": -0.4052771996457232,
+              "profit_factor": 0.8502782961878821
+            },
+            "SHORT": {
+              "trades": 2,
+              "win_rate": 0.0,
+              "expectancy": -1.0876281604719162,
+              "total_r": -2.1752563209438325,
+              "profit_factor": 0.0
+            },
+            "Fresh zones": {
+              "trades": 0,
+              "win_rate": 0,
+              "expectancy": 0,
+              "total_r": 0,
+              "profit_factor": "\u2014"
+            },
+            "Retested zones": {
+              "trades": 6,
+              "win_rate": 16.666666666666668,
+              "expectancy": -0.4300889200982592,
+              "total_r": -2.5805335205895554,
+              "profit_factor": 0.4714324637994746
+            },
+            "First retest": {
+              "trades": 0,
+              "win_rate": 0,
+              "expectancy": 0,
+              "total_r": 0,
+              "profit_factor": "\u2014"
+            },
+            "Second/third retest": {
+              "trades": 0,
+              "win_rate": 0,
+              "expectancy": 0,
+              "total_r": 0,
+              "profit_factor": "\u2014"
+            },
+            "Fourth+ retest": {
+              "trades": 6,
+              "win_rate": 16.666666666666668,
+              "expectancy": -0.4300889200982592,
+              "total_r": -2.5805335205895554,
+              "profit_factor": 0.4714324637994746
+            },
+            "Trend aligned": {
+              "trades": 2,
+              "win_rate": 50.0,
+              "expectancy": 0.6055520710155137,
+              "total_r": 1.2111041420310273,
+              "profit_factor": 2.1106067443737664
+            },
+            "Countertrend": {
+              "trades": 2,
+              "win_rate": 0.0,
+              "expectancy": -1.0655907956982809,
+              "total_r": -2.1311815913965617,
+              "profit_factor": 0.0
+            },
+            "Range": {
+              "trades": 2,
+              "win_rate": 0.0,
+              "expectancy": -0.8302280356120105,
+              "total_r": -1.660456071224021,
+              "profit_factor": 0.0
+            },
+            "Rejection": {
+              "trades": 6,
+              "win_rate": 16.666666666666668,
+              "expectancy": -0.4300889200982592,
+              "total_r": -2.5805335205895554,
+              "profit_factor": 0.4714324637994746
+            },
+            "Breakout-retest": {
+              "trades": 0,
+              "win_rate": 0,
+              "expectancy": 0,
+              "total_r": 0,
+              "profit_factor": "\u2014"
+            },
+            "Strong (>=65)": {
+              "trades": 2,
+              "win_rate": 50.0,
+              "expectancy": 0.634122360848378,
+              "total_r": 1.268244721696756,
+              "profit_factor": 2.2273159990218536
+            },
+            "Weak (<65)": {
+              "trades": 4,
+              "win_rate": 0.0,
+              "expectancy": -0.9621945605715778,
+              "total_r": -3.8487782422863113,
+              "profit_factor": 0.0
+            },
+            "Recent (<=100 bars)": {
+              "trades": 3,
+              "win_rate": 0.0,
+              "expectancy": -1.0738901082815422,
+              "total_r": -3.2216703248446263,
+              "profit_factor": 0.0
+            },
+            "Old (>100 bars)": {
+              "trades": 3,
+              "win_rate": 33.333333333333336,
+              "expectancy": 0.21371226808502372,
+              "total_r": 0.6411368042550711,
+              "profit_factor": 1.3861209070002383
+            },
+            "Narrow (<=0.5 ATR)": {
+              "trades": 5,
+              "win_rate": 20.0,
+              "expectancy": -0.2991531866187576,
+              "total_r": -1.495765933093788,
+              "profit_factor": 0.6061036081928941
+            },
+            "Wide (>0.5 ATR)": {
+              "trades": 1,
+              "win_rate": 0.0,
+              "expectancy": -1.0847675874957674,
+              "total_r": -1.0847675874957674,
+              "profit_factor": 0.0
+            },
+            "Stop <0.75 ATR": {
+              "trades": 4,
+              "win_rate": 25.0,
+              "expectancy": -0.22675289981176905,
+              "total_r": -0.9070115992470762,
+              "profit_factor": 0.7173189757754473
+            },
+            "Stop 0.75\u20131.5 ATR": {
+              "trades": 1,
+              "win_rate": 0.0,
+              "expectancy": -1.0464140039007943,
+              "total_r": -1.0464140039007943,
+              "profit_factor": 0.0
+            },
+            "Stop >1.5 ATR": {
+              "trades": 1,
+              "win_rate": 0.0,
+              "expectancy": -0.6271079174416849,
+              "total_r": -0.6271079174416849,
+              "profit_factor": 0.0
+            },
+            "Previously failed hold": {
+              "trades": 6,
+              "win_rate": 16.666666666666668,
+              "expectancy": -0.4300889200982592,
+              "total_r": -2.5805335205895554,
+              "profit_factor": 0.4714324637994746
+            },
+            "No failed holds": {
+              "trades": 0,
+              "win_rate": 0,
+              "expectancy": 0,
+              "total_r": 0,
+              "profit_factor": "\u2014"
+            },
+            "Impulse >=3 ATR": {
+              "trades": 0,
+              "win_rate": 0,
+              "expectancy": 0,
+              "total_r": 0,
+              "profit_factor": "\u2014"
+            },
+            "Impulse <3 ATR": {
+              "trades": 6,
+              "win_rate": 16.666666666666668,
+              "expectancy": -0.4300889200982592,
+              "total_r": -2.5805335205895554,
+              "profit_factor": 0.4714324637994746
+            }
+          }
+        },
+        "First third": {
+          "start": "2024-03-03T00:00:00+00:00",
+          "end": "2025-01-07T00:00:00+00:00",
+          "metrics": {
+            "total_trades": 8,
+            "wins": 0,
+            "losses": 8,
+            "breakeven": 0,
+            "win_rate": 0.0,
+            "average_win": 0,
+            "average_loss": -1.0454931825748757,
+            "average_R": -1.0454931825748757,
+            "total_R": -8.363945460599005,
+            "expectancy": -1.0454931825748757,
+            "profit_factor": 0.0,
+            "maximum_drawdown_pct": 8.47191690914311,
+            "longest_losing_streak": 8
+          },
+          "diagnostics": {
+            "LONG": {
+              "trades": 2,
+              "win_rate": 0.0,
+              "expectancy": -1.0562743102833447,
+              "total_r": -2.1125486205666895,
+              "profit_factor": 0.0
+            },
+            "SHORT": {
+              "trades": 6,
+              "win_rate": 0.0,
+              "expectancy": -1.0418994733387192,
+              "total_r": -6.251396840032315,
+              "profit_factor": 0.0
+            },
+            "Fresh zones": {
+              "trades": 0,
+              "win_rate": 0,
+              "expectancy": 0,
+              "total_r": 0,
+              "profit_factor": "\u2014"
+            },
+            "Retested zones": {
+              "trades": 8,
+              "win_rate": 0.0,
+              "expectancy": -1.0454931825748757,
+              "total_r": -8.363945460599005,
+              "profit_factor": 0.0
+            },
+            "First retest": {
+              "trades": 0,
+              "win_rate": 0,
+              "expectancy": 0,
+              "total_r": 0,
+              "profit_factor": "\u2014"
+            },
+            "Second/third retest": {
+              "trades": 1,
+              "win_rate": 0.0,
+              "expectancy": -1.016372757638568,
+              "total_r": -1.016372757638568,
+              "profit_factor": 0.0
+            },
+            "Fourth+ retest": {
+              "trades": 7,
+              "win_rate": 0.0,
+              "expectancy": -1.0496532432800625,
+              "total_r": -7.347572702960437,
+              "profit_factor": 0.0
+            },
+            "Trend aligned": {
+              "trades": 4,
+              "win_rate": 0.0,
+              "expectancy": -1.055998919875875,
+              "total_r": -4.2239956795035,
+              "profit_factor": 0.0
+            },
+            "Countertrend": {
+              "trades": 3,
+              "win_rate": 0.0,
+              "expectancy": -1.0411923411523123,
+              "total_r": -3.123577023456937,
+              "profit_factor": 0.0
+            },
+            "Range": {
+              "trades": 1,
+              "win_rate": 0.0,
+              "expectancy": -1.016372757638568,
+              "total_r": -1.016372757638568,
+              "profit_factor": 0.0
+            },
+            "Rejection": {
+              "trades": 8,
+              "win_rate": 0.0,
+              "expectancy": -1.0454931825748757,
+              "total_r": -8.363945460599005,
+              "profit_factor": 0.0
+            },
+            "Breakout-retest": {
+              "trades": 0,
+              "win_rate": 0,
+              "expectancy": 0,
+              "total_r": 0,
+              "profit_factor": "\u2014"
+            },
+            "Strong (>=65)": {
+              "trades": 2,
+              "win_rate": 0.0,
+              "expectancy": -1.0513658662201726,
+              "total_r": -2.102731732440345,
+              "profit_factor": 0.0
+            },
+            "Weak (<65)": {
+              "trades": 6,
+              "win_rate": 0.0,
+              "expectancy": -1.0435356213597766,
+              "total_r": -6.26121372815866,
+              "profit_factor": 0.0
+            },
+            "Recent (<=100 bars)": {
+              "trades": 1,
+              "win_rate": 0.0,
+              "expectancy": -1.016372757638568,
+              "total_r": -1.016372757638568,
+              "profit_factor": 0.0
+            },
+            "Old (>100 bars)": {
+              "trades": 7,
+              "win_rate": 0.0,
+              "expectancy": -1.0496532432800625,
+              "total_r": -7.347572702960437,
+              "profit_factor": 0.0
+            },
+            "Narrow (<=0.5 ATR)": {
+              "trades": 6,
+              "win_rate": 0.0,
+              "expectancy": -1.0510996968556634,
+              "total_r": -6.306598181133981,
+              "profit_factor": 0.0
+            },
+            "Wide (>0.5 ATR)": {
+              "trades": 2,
+              "win_rate": 0.0,
+              "expectancy": -1.028673639732512,
+              "total_r": -2.057347279465024,
+              "profit_factor": 0.0
+            },
+            "Stop <0.75 ATR": {
+              "trades": 6,
+              "win_rate": 0.0,
+              "expectancy": -1.0528708031295737,
+              "total_r": -6.317224818777442,
+              "profit_factor": 0.0
+            },
+            "Stop 0.75\u20131.5 ATR": {
+              "trades": 1,
+              "win_rate": 0.0,
+              "expectancy": -1.030347884182995,
+              "total_r": -1.030347884182995,
+              "profit_factor": 0.0
+            },
+            "Stop >1.5 ATR": {
+              "trades": 1,
+              "win_rate": 0.0,
+              "expectancy": -1.016372757638568,
+              "total_r": -1.016372757638568,
+              "profit_factor": 0.0
+            },
+            "Previously failed hold": {
+              "trades": 8,
+              "win_rate": 0.0,
+              "expectancy": -1.0454931825748757,
+              "total_r": -8.363945460599005,
+              "profit_factor": 0.0
+            },
+            "No failed holds": {
+              "trades": 0,
+              "win_rate": 0,
+              "expectancy": 0,
+              "total_r": 0,
+              "profit_factor": "\u2014"
+            },
+            "Impulse >=3 ATR": {
+              "trades": 0,
+              "win_rate": 0,
+              "expectancy": 0,
+              "total_r": 0,
+              "profit_factor": "\u2014"
+            },
+            "Impulse <3 ATR": {
+              "trades": 8,
+              "win_rate": 0.0,
+              "expectancy": -1.0454931825748757,
+              "total_r": -8.363945460599005,
+              "profit_factor": 0.0
+            }
+          }
+        },
+        "Middle third": {
+          "start": "2025-01-07T00:00:00+00:00",
+          "end": "2025-11-14T00:00:00+00:00",
+          "metrics": {
+            "total_trades": 12,
+            "wins": 6,
+            "losses": 6,
+            "breakeven": 0,
+            "win_rate": 50.0,
+            "average_win": 1.9734289661415678,
+            "average_loss": -1.0591897096593275,
+            "average_R": 0.45711962824112023,
+            "total_R": 5.485435538893443,
+            "expectancy": 0.45711962824112023,
+            "profit_factor": 1.8631496776685,
+            "maximum_drawdown_pct": 4.045350092430867,
+            "longest_losing_streak": 3
+          },
+          "diagnostics": {
+            "LONG": {
+              "trades": 7,
+              "win_rate": 57.142857142857146,
+              "expectancy": 0.5047871199411947,
+              "total_r": 3.5335098395883633,
+              "profit_factor": 2.1063420370795876
+            },
+            "SHORT": {
+              "trades": 5,
+              "win_rate": 40.0,
+              "expectancy": 0.39038513986101586,
+              "total_r": 1.9519256993050793,
+              "profit_factor": 1.6174496993048322
+            },
+            "Fresh zones": {
+              "trades": 0,
+              "win_rate": 0,
+              "expectancy": 0,
+              "total_r": 0,
+              "profit_factor": "\u2014"
+            },
+            "Retested zones": {
+              "trades": 12,
+              "win_rate": 50.0,
+              "expectancy": 0.45711962824112023,
+              "total_r": 5.485435538893443,
+              "profit_factor": 1.8631496776685
+            },
+            "First retest": {
+              "trades": 0,
+              "win_rate": 0,
+              "expectancy": 0,
+              "total_r": 0,
+              "profit_factor": "\u2014"
+            },
+            "Second/third retest": {
+              "trades": 0,
+              "win_rate": 0,
+              "expectancy": 0,
+              "total_r": 0,
+              "profit_factor": "\u2014"
+            },
+            "Fourth+ retest": {
+              "trades": 12,
+              "win_rate": 50.0,
+              "expectancy": 0.45711962824112023,
+              "total_r": 5.485435538893443,
+              "profit_factor": 1.8631496776685
+            },
+            "Trend aligned": {
+              "trades": 2,
+              "win_rate": 50.0,
+              "expectancy": 0.424780463274687,
+              "total_r": 0.849560926549374,
+              "profit_factor": 1.8015517856825713
+            },
+            "Countertrend": {
+              "trades": 2,
+              "win_rate": 50.0,
+              "expectancy": 0.029635021909984238,
+              "total_r": 0.059270043819968476,
+              "profit_factor": 1.0548501990017167
+            },
+            "Range": {
+              "trades": 8,
+              "win_rate": 50.0,
+              "expectancy": 0.5720755710655125,
+              "total_r": 4.5766045685241,
+              "profit_factor": 2.0858768227237237
+            },
+            "Rejection": {
+              "trades": 12,
+              "win_rate": 50.0,
+              "expectancy": 0.45711962824112023,
+              "total_r": 5.485435538893443,
+              "profit_factor": 1.8631496776685
+            },
+            "Breakout-retest": {
+              "trades": 0,
+              "win_rate": 0,
+              "expectancy": 0,
+              "total_r": 0,
+              "profit_factor": "\u2014"
+            },
+            "Strong (>=65)": {
+              "trades": 11,
+              "win_rate": 45.45454545454545,
+              "expectancy": 0.31034466935776134,
+              "total_r": 3.413791362935375,
+              "profit_factor": 1.5371702745666733
+            },
+            "Weak (<65)": {
+              "trades": 1,
+              "win_rate": 100.0,
+              "expectancy": 2.0716441759580677,
+              "total_r": 2.0716441759580677,
+              "profit_factor": "\u221e"
+            },
+            "Recent (<=100 bars)": {
+              "trades": 0,
+              "win_rate": 0,
+              "expectancy": 0,
+              "total_r": 0,
+              "profit_factor": "\u2014"
+            },
+            "Old (>100 bars)": {
+              "trades": 12,
+              "win_rate": 50.0,
+              "expectancy": 0.45711962824112023,
+              "total_r": 5.485435538893443,
+              "profit_factor": 1.8631496776685
+            },
+            "Narrow (<=0.5 ATR)": {
+              "trades": 6,
+              "win_rate": 50.0,
+              "expectancy": 0.3182353630274209,
+              "total_r": 1.9094121781645255,
+              "profit_factor": 1.5994877337461897
+            },
+            "Wide (>0.5 ATR)": {
+              "trades": 6,
+              "win_rate": 50.0,
+              "expectancy": 0.5960038934548195,
+              "total_r": 3.576023360728917,
+              "profit_factor": 2.1280598469868677
+            },
+            "Stop <0.75 ATR": {
+              "trades": 10,
+              "win_rate": 40.0,
+              "expectancy": 0.16187112030765288,
+              "total_r": 1.6187112030765287,
+              "profit_factor": 1.2547090460305994
+            },
+            "Stop 0.75\u20131.5 ATR": {
+              "trades": 2,
+              "win_rate": 100.0,
+              "expectancy": 1.933362167908457,
+              "total_r": 3.866724335816914,
+              "profit_factor": "\u221e"
+            },
+            "Stop >1.5 ATR": {
+              "trades": 0,
+              "win_rate": 0,
+              "expectancy": 0,
+              "total_r": 0,
+              "profit_factor": "\u2014"
+            },
+            "Previously failed hold": {
+              "trades": 12,
+              "win_rate": 50.0,
+              "expectancy": 0.45711962824112023,
+              "total_r": 5.485435538893443,
+              "profit_factor": 1.8631496776685
+            },
+            "No failed holds": {
+              "trades": 0,
+              "win_rate": 0,
+              "expectancy": 0,
+              "total_r": 0,
+              "profit_factor": "\u2014"
+            },
+            "Impulse >=3 ATR": {
+              "trades": 0,
+              "win_rate": 0,
+              "expectancy": 0,
+              "total_r": 0,
+              "profit_factor": "\u2014"
+            },
+            "Impulse <3 ATR": {
+              "trades": 12,
+              "win_rate": 50.0,
+              "expectancy": 0.45711962824112023,
+              "total_r": 5.485435538893443,
+              "profit_factor": 1.8631496776685
+            }
+          }
+        },
+        "Latest third": {
+          "start": "2025-11-14T00:00:00+00:00",
+          "end": "2026-09-21T00:00:00+00:00",
+          "metrics": {
+            "total_trades": 6,
+            "wins": 1,
+            "losses": 5,
+            "breakeven": 0,
+            "win_rate": 16.666666666666668,
+            "average_win": 2.301592875479092,
+            "average_loss": -0.9764252792137296,
+            "average_R": -0.4300889200982592,
+            "total_R": -2.5805335205895554,
+            "expectancy": -0.4300889200982592,
+            "profit_factor": 0.4714324637994746,
+            "maximum_drawdown_pct": 4.098284719400238,
+            "longest_losing_streak": 3
+          },
+          "diagnostics": {
+            "LONG": {
+              "trades": 4,
+              "win_rate": 25.0,
+              "expectancy": -0.1013192999114308,
+              "total_r": -0.4052771996457232,
+              "profit_factor": 0.8502782961878821
+            },
+            "SHORT": {
+              "trades": 2,
+              "win_rate": 0.0,
+              "expectancy": -1.0876281604719162,
+              "total_r": -2.1752563209438325,
+              "profit_factor": 0.0
+            },
+            "Fresh zones": {
+              "trades": 0,
+              "win_rate": 0,
+              "expectancy": 0,
+              "total_r": 0,
+              "profit_factor": "\u2014"
+            },
+            "Retested zones": {
+              "trades": 6,
+              "win_rate": 16.666666666666668,
+              "expectancy": -0.4300889200982592,
+              "total_r": -2.5805335205895554,
+              "profit_factor": 0.4714324637994746
+            },
+            "First retest": {
+              "trades": 0,
+              "win_rate": 0,
+              "expectancy": 0,
+              "total_r": 0,
+              "profit_factor": "\u2014"
+            },
+            "Second/third retest": {
+              "trades": 0,
+              "win_rate": 0,
+              "expectancy": 0,
+              "total_r": 0,
+              "profit_factor": "\u2014"
+            },
+            "Fourth+ retest": {
+              "trades": 6,
+              "win_rate": 16.666666666666668,
+              "expectancy": -0.4300889200982592,
+              "total_r": -2.5805335205895554,
+              "profit_factor": 0.4714324637994746
+            },
+            "Trend aligned": {
+              "trades": 2,
+              "win_rate": 50.0,
+              "expectancy": 0.6055520710155137,
+              "total_r": 1.2111041420310273,
+              "profit_factor": 2.1106067443737664
+            },
+            "Countertrend": {
+              "trades": 2,
+              "win_rate": 0.0,
+              "expectancy": -1.0655907956982809,
+              "total_r": -2.1311815913965617,
+              "profit_factor": 0.0
+            },
+            "Range": {
+              "trades": 2,
+              "win_rate": 0.0,
+              "expectancy": -0.8302280356120105,
+              "total_r": -1.660456071224021,
+              "profit_factor": 0.0
+            },
+            "Rejection": {
+              "trades": 6,
+              "win_rate": 16.666666666666668,
+              "expectancy": -0.4300889200982592,
+              "total_r": -2.5805335205895554,
+              "profit_factor": 0.4714324637994746
+            },
+            "Breakout-retest": {
+              "trades": 0,
+              "win_rate": 0,
+              "expectancy": 0,
+              "total_r": 0,
+              "profit_factor": "\u2014"
+            },
+            "Strong (>=65)": {
+              "trades": 2,
+              "win_rate": 50.0,
+              "expectancy": 0.634122360848378,
+              "total_r": 1.268244721696756,
+              "profit_factor": 2.2273159990218536
+            },
+            "Weak (<65)": {
+              "trades": 4,
+              "win_rate": 0.0,
+              "expectancy": -0.9621945605715778,
+              "total_r": -3.8487782422863113,
+              "profit_factor": 0.0
+            },
+            "Recent (<=100 bars)": {
+              "trades": 3,
+              "win_rate": 0.0,
+              "expectancy": -1.0738901082815422,
+              "total_r": -3.2216703248446263,
+              "profit_factor": 0.0
+            },
+            "Old (>100 bars)": {
+              "trades": 3,
+              "win_rate": 33.333333333333336,
+              "expectancy": 0.21371226808502372,
+              "total_r": 0.6411368042550711,
+              "profit_factor": 1.3861209070002383
+            },
+            "Narrow (<=0.5 ATR)": {
+              "trades": 5,
+              "win_rate": 20.0,
+              "expectancy": -0.2991531866187576,
+              "total_r": -1.495765933093788,
+              "profit_factor": 0.6061036081928941
+            },
+            "Wide (>0.5 ATR)": {
+              "trades": 1,
+              "win_rate": 0.0,
+              "expectancy": -1.0847675874957674,
+              "total_r": -1.0847675874957674,
+              "profit_factor": 0.0
+            },
+            "Stop <0.75 ATR": {
+              "trades": 4,
+              "win_rate": 25.0,
+              "expectancy": -0.22675289981176905,
+              "total_r": -0.9070115992470762,
+              "profit_factor": 0.7173189757754473
+            },
+            "Stop 0.75\u20131.5 ATR": {
+              "trades": 1,
+              "win_rate": 0.0,
+              "expectancy": -1.0464140039007943,
+              "total_r": -1.0464140039007943,
+              "profit_factor": 0.0
+            },
+            "Stop >1.5 ATR": {
+              "trades": 1,
+              "win_rate": 0.0,
+              "expectancy": -0.6271079174416849,
+              "total_r": -0.6271079174416849,
+              "profit_factor": 0.0
+            },
+            "Previously failed hold": {
+              "trades": 6,
+              "win_rate": 16.666666666666668,
+              "expectancy": -0.4300889200982592,
+              "total_r": -2.5805335205895554,
+              "profit_factor": 0.4714324637994746
+            },
+            "No failed holds": {
+              "trades": 0,
+              "win_rate": 0,
+              "expectancy": 0,
+              "total_r": 0,
+              "profit_factor": "\u2014"
+            },
+            "Impulse >=3 ATR": {
+              "trades": 0,
+              "win_rate": 0,
+              "expectancy": 0,
+              "total_r": 0,
+              "profit_factor": "\u2014"
+            },
+            "Impulse <3 ATR": {
+              "trades": 6,
+              "win_rate": 16.666666666666668,
+              "expectancy": -0.4300889200982592,
+              "total_r": -2.5805335205895554,
+              "profit_factor": 0.4714324637994746
+            }
+          }
+        },
+        "User six months": {
+          "start": "2026-03-21T00:00:00+00:00",
+          "end": "2026-09-21T00:00:00+00:00",
+          "metrics": {
+            "total_trades": 4,
+            "wins": 1,
+            "losses": 3,
+            "breakeven": 0,
+            "win_rate": 25.0,
+            "average_win": 2.301592875479092,
+            "average_loss": -0.9150745529065961,
+            "average_R": -0.11090769581017407,
+            "total_R": -0.44363078324069627,
+            "expectancy": -0.11090769581017407,
+            "profit_factor": 0.8383990383327894,
+            "maximum_drawdown_pct": 4.098284719400225,
+            "longest_losing_streak": 2
+          },
+          "diagnostics": {
+            "LONG": {
+              "trades": 3,
+              "win_rate": 33.333333333333336,
+              "expectancy": 0.21371226808502372,
+              "total_r": 0.6411368042550711,
+              "profit_factor": 1.3861209070002383
+            },
+            "SHORT": {
+              "trades": 1,
+              "win_rate": 0.0,
+              "expectancy": -1.0847675874957674,
+              "total_r": -1.0847675874957674,
+              "profit_factor": 0.0
+            },
+            "Fresh zones": {
+              "trades": 0,
+              "win_rate": 0,
+              "expectancy": 0,
+              "total_r": 0,
+              "profit_factor": "\u2014"
+            },
+            "Retested zones": {
+              "trades": 4,
+              "win_rate": 25.0,
+              "expectancy": -0.11090769581017407,
+              "total_r": -0.44363078324069627,
+              "profit_factor": 0.8383990383327894
+            },
+            "First retest": {
+              "trades": 0,
+              "win_rate": 0,
+              "expectancy": 0,
+              "total_r": 0,
+              "profit_factor": "\u2014"
+            },
+            "Second/third retest": {
+              "trades": 0,
+              "win_rate": 0,
+              "expectancy": 0,
+              "total_r": 0,
+              "profit_factor": "\u2014"
+            },
+            "Fourth+ retest": {
+              "trades": 4,
+              "win_rate": 25.0,
+              "expectancy": -0.11090769581017407,
+              "total_r": -0.44363078324069627,
+              "profit_factor": 0.8383990383327894
+            },
+            "Trend aligned": {
+              "trades": 1,
+              "win_rate": 100.0,
+              "expectancy": 2.301592875479092,
+              "total_r": 2.301592875479092,
+              "profit_factor": "\u221e"
+            },
+            "Countertrend": {
+              "trades": 1,
+              "win_rate": 0.0,
+              "expectancy": -1.0847675874957674,
+              "total_r": -1.0847675874957674,
+              "profit_factor": 0.0
+            },
+            "Range": {
+              "trades": 2,
+              "win_rate": 0.0,
+              "expectancy": -0.8302280356120105,
+              "total_r": -1.660456071224021,
+              "profit_factor": 0.0
+            },
+            "Rejection": {
+              "trades": 4,
+              "win_rate": 25.0,
+              "expectancy": -0.11090769581017407,
+              "total_r": -0.44363078324069627,
+              "profit_factor": 0.8383990383327894
+            },
+            "Breakout-retest": {
+              "trades": 0,
+              "win_rate": 0,
+              "expectancy": 0,
+              "total_r": 0,
+              "profit_factor": "\u2014"
+            },
+            "Strong (>=65)": {
+              "trades": 2,
+              "win_rate": 50.0,
+              "expectancy": 0.634122360848378,
+              "total_r": 1.268244721696756,
+              "profit_factor": 2.2273159990218536
+            },
+            "Weak (<65)": {
+              "trades": 2,
+              "win_rate": 0.0,
+              "expectancy": -0.8559377524687262,
+              "total_r": -1.7118755049374523,
+              "profit_factor": 0.0
+            },
+            "Recent (<=100 bars)": {
+              "trades": 1,
+              "win_rate": 0.0,
+              "expectancy": -1.0847675874957674,
+              "total_r": -1.0847675874957674,
+              "profit_factor": 0.0
+            },
+            "Old (>100 bars)": {
+              "trades": 3,
+              "win_rate": 33.333333333333336,
+              "expectancy": 0.21371226808502372,
+              "total_r": 0.6411368042550711,
+              "profit_factor": 1.3861209070002383
+            },
+            "Narrow (<=0.5 ATR)": {
+              "trades": 3,
+              "win_rate": 33.333333333333336,
+              "expectancy": 0.21371226808502372,
+              "total_r": 0.6411368042550711,
+              "profit_factor": 1.3861209070002383
+            },
+            "Wide (>0.5 ATR)": {
+              "trades": 1,
+              "win_rate": 0.0,
+              "expectancy": -1.0847675874957674,
+              "total_r": -1.0847675874957674,
+              "profit_factor": 0.0
+            },
+            "Stop <0.75 ATR": {
+              "trades": 3,
+              "win_rate": 33.333333333333336,
+              "expectancy": 0.06115904473366288,
+              "total_r": 0.18347713420098866,
+              "profit_factor": 1.08662280848273
+            },
+            "Stop 0.75\u20131.5 ATR": {
+              "trades": 0,
+              "win_rate": 0,
+              "expectancy": 0,
+              "total_r": 0,
+              "profit_factor": "\u2014"
+            },
+            "Stop >1.5 ATR": {
+              "trades": 1,
+              "win_rate": 0.0,
+              "expectancy": -0.6271079174416849,
+              "total_r": -0.6271079174416849,
+              "profit_factor": 0.0
+            },
+            "Previously failed hold": {
+              "trades": 4,
+              "win_rate": 25.0,
+              "expectancy": -0.11090769581017407,
+              "total_r": -0.44363078324069627,
+              "profit_factor": 0.8383990383327894
+            },
+            "No failed holds": {
+              "trades": 0,
+              "win_rate": 0,
+              "expectancy": 0,
+              "total_r": 0,
+              "profit_factor": "\u2014"
+            },
+            "Impulse >=3 ATR": {
+              "trades": 0,
+              "win_rate": 0,
+              "expectancy": 0,
+              "total_r": 0,
+              "profit_factor": "\u2014"
+            },
+            "Impulse <3 ATR": {
+              "trades": 4,
+              "win_rate": 25.0,
+              "expectancy": -0.11090769581017407,
+              "total_r": -0.44363078324069627,
+              "profit_factor": 0.8383990383327894
+            }
+          }
+        }
+      },
+      "v2": {
+        "Full": {
+          "start": "2024-03-03T00:00:00+00:00",
+          "end": "2026-09-21T00:00:00+00:00",
+          "metrics": {
+            "total_trades": 0,
+            "wins": 0,
+            "losses": 0,
+            "breakeven": 0,
+            "win_rate": 0,
+            "average_win": 0,
+            "average_loss": 0,
+            "average_R": 0,
+            "total_R": 0,
+            "expectancy": 0,
+            "profit_factor": "\u2014",
+            "maximum_drawdown_pct": 0,
+            "longest_losing_streak": 0
+          },
+          "diagnostics": {
+            "LONG": {
+              "trades": 0,
+              "win_rate": 0,
+              "expectancy": 0,
+              "total_r": 0,
+              "profit_factor": "\u2014"
+            },
+            "SHORT": {
+              "trades": 0,
+              "win_rate": 0,
+              "expectancy": 0,
+              "total_r": 0,
+              "profit_factor": "\u2014"
+            },
+            "Fresh zones": {
+              "trades": 0,
+              "win_rate": 0,
+              "expectancy": 0,
+              "total_r": 0,
+              "profit_factor": "\u2014"
+            },
+            "Retested zones": {
+              "trades": 0,
+              "win_rate": 0,
+              "expectancy": 0,
+              "total_r": 0,
+              "profit_factor": "\u2014"
+            },
+            "First retest": {
+              "trades": 0,
+              "win_rate": 0,
+              "expectancy": 0,
+              "total_r": 0,
+              "profit_factor": "\u2014"
+            },
+            "Second/third retest": {
+              "trades": 0,
+              "win_rate": 0,
+              "expectancy": 0,
+              "total_r": 0,
+              "profit_factor": "\u2014"
+            },
+            "Fourth+ retest": {
+              "trades": 0,
+              "win_rate": 0,
+              "expectancy": 0,
+              "total_r": 0,
+              "profit_factor": "\u2014"
+            },
+            "Trend aligned": {
+              "trades": 0,
+              "win_rate": 0,
+              "expectancy": 0,
+              "total_r": 0,
+              "profit_factor": "\u2014"
+            },
+            "Countertrend": {
+              "trades": 0,
+              "win_rate": 0,
+              "expectancy": 0,
+              "total_r": 0,
+              "profit_factor": "\u2014"
+            },
+            "Range": {
+              "trades": 0,
+              "win_rate": 0,
+              "expectancy": 0,
+              "total_r": 0,
+              "profit_factor": "\u2014"
+            },
+            "Rejection": {
+              "trades": 0,
+              "win_rate": 0,
+              "expectancy": 0,
+              "total_r": 0,
+              "profit_factor": "\u2014"
+            },
+            "Breakout-retest": {
+              "trades": 0,
+              "win_rate": 0,
+              "expectancy": 0,
+              "total_r": 0,
+              "profit_factor": "\u2014"
+            },
+            "Strong (>=65)": {
+              "trades": 0,
+              "win_rate": 0,
+              "expectancy": 0,
+              "total_r": 0,
+              "profit_factor": "\u2014"
+            },
+            "Weak (<65)": {
+              "trades": 0,
+              "win_rate": 0,
+              "expectancy": 0,
+              "total_r": 0,
+              "profit_factor": "\u2014"
+            },
+            "Recent (<=100 bars)": {
+              "trades": 0,
+              "win_rate": 0,
+              "expectancy": 0,
+              "total_r": 0,
+              "profit_factor": "\u2014"
+            },
+            "Old (>100 bars)": {
+              "trades": 0,
+              "win_rate": 0,
+              "expectancy": 0,
+              "total_r": 0,
+              "profit_factor": "\u2014"
+            },
+            "Narrow (<=0.5 ATR)": {
+              "trades": 0,
+              "win_rate": 0,
+              "expectancy": 0,
+              "total_r": 0,
+              "profit_factor": "\u2014"
+            },
+            "Wide (>0.5 ATR)": {
+              "trades": 0,
+              "win_rate": 0,
+              "expectancy": 0,
+              "total_r": 0,
+              "profit_factor": "\u2014"
+            },
+            "Stop <0.75 ATR": {
+              "trades": 0,
+              "win_rate": 0,
+              "expectancy": 0,
+              "total_r": 0,
+              "profit_factor": "\u2014"
+            },
+            "Stop 0.75\u20131.5 ATR": {
+              "trades": 0,
+              "win_rate": 0,
+              "expectancy": 0,
+              "total_r": 0,
+              "profit_factor": "\u2014"
+            },
+            "Stop >1.5 ATR": {
+              "trades": 0,
+              "win_rate": 0,
+              "expectancy": 0,
+              "total_r": 0,
+              "profit_factor": "\u2014"
+            },
+            "Previously failed hold": {
+              "trades": 0,
+              "win_rate": 0,
+              "expectancy": 0,
+              "total_r": 0,
+              "profit_factor": "\u2014"
+            },
+            "No failed holds": {
+              "trades": 0,
+              "win_rate": 0,
+              "expectancy": 0,
+              "total_r": 0,
+              "profit_factor": "\u2014"
+            },
+            "Impulse >=3 ATR": {
+              "trades": 0,
+              "win_rate": 0,
+              "expectancy": 0,
+              "total_r": 0,
+              "profit_factor": "\u2014"
+            },
+            "Impulse <3 ATR": {
+              "trades": 0,
+              "win_rate": 0,
+              "expectancy": 0,
+              "total_r": 0,
+              "profit_factor": "\u2014"
+            }
+          }
+        },
+        "Development 70%": {
+          "start": "2024-03-03T00:00:00+00:00",
+          "end": "2025-12-15T00:00:00+00:00",
+          "metrics": {
+            "total_trades": 0,
+            "wins": 0,
+            "losses": 0,
+            "breakeven": 0,
+            "win_rate": 0,
+            "average_win": 0,
+            "average_loss": 0,
+            "average_R": 0,
+            "total_R": 0,
+            "expectancy": 0,
+            "profit_factor": "\u2014",
+            "maximum_drawdown_pct": 0,
+            "longest_losing_streak": 0
+          },
+          "diagnostics": {
+            "LONG": {
+              "trades": 0,
+              "win_rate": 0,
+              "expectancy": 0,
+              "total_r": 0,
+              "profit_factor": "\u2014"
+            },
+            "SHORT": {
+              "trades": 0,
+              "win_rate": 0,
+              "expectancy": 0,
+              "total_r": 0,
+              "profit_factor": "\u2014"
+            },
+            "Fresh zones": {
+              "trades": 0,
+              "win_rate": 0,
+              "expectancy": 0,
+              "total_r": 0,
+              "profit_factor": "\u2014"
+            },
+            "Retested zones": {
+              "trades": 0,
+              "win_rate": 0,
+              "expectancy": 0,
+              "total_r": 0,
+              "profit_factor": "\u2014"
+            },
+            "First retest": {
+              "trades": 0,
+              "win_rate": 0,
+              "expectancy": 0,
+              "total_r": 0,
+              "profit_factor": "\u2014"
+            },
+            "Second/third retest": {
+              "trades": 0,
+              "win_rate": 0,
+              "expectancy": 0,
+              "total_r": 0,
+              "profit_factor": "\u2014"
+            },
+            "Fourth+ retest": {
+              "trades": 0,
+              "win_rate": 0,
+              "expectancy": 0,
+              "total_r": 0,
+              "profit_factor": "\u2014"
+            },
+            "Trend aligned": {
+              "trades": 0,
+              "win_rate": 0,
+              "expectancy": 0,
+              "total_r": 0,
+              "profit_factor": "\u2014"
+            },
+            "Countertrend": {
+              "trades": 0,
+              "win_rate": 0,
+              "expectancy": 0,
+              "total_r": 0,
+              "profit_factor": "\u2014"
+            },
+            "Range": {
+              "trades": 0,
+              "win_rate": 0,
+              "expectancy": 0,
+              "total_r": 0,
+              "profit_factor": "\u2014"
+            },
+            "Rejection": {
+              "trades": 0,
+              "win_rate": 0,
+              "expectancy": 0,
+              "total_r": 0,
+              "profit_factor": "\u2014"
+            },
+            "Breakout-retest": {
+              "trades": 0,
+              "win_rate": 0,
+              "expectancy": 0,
+              "total_r": 0,
+              "profit_factor": "\u2014"
+            },
+            "Strong (>=65)": {
+              "trades": 0,
+              "win_rate": 0,
+              "expectancy": 0,
+              "total_r": 0,
+              "profit_factor": "\u2014"
+            },
+            "Weak (<65)": {
+              "trades": 0,
+              "win_rate": 0,
+              "expectancy": 0,
+              "total_r": 0,
+              "profit_factor": "\u2014"
+            },
+            "Recent (<=100 bars)": {
+              "trades": 0,
+              "win_rate": 0,
+              "expectancy": 0,
+              "total_r": 0,
+              "profit_factor": "\u2014"
+            },
+            "Old (>100 bars)": {
+              "trades": 0,
+              "win_rate": 0,
+              "expectancy": 0,
+              "total_r": 0,
+              "profit_factor": "\u2014"
+            },
+            "Narrow (<=0.5 ATR)": {
+              "trades": 0,
+              "win_rate": 0,
+              "expectancy": 0,
+              "total_r": 0,
+              "profit_factor": "\u2014"
+            },
+            "Wide (>0.5 ATR)": {
+              "trades": 0,
+              "win_rate": 0,
+              "expectancy": 0,
+              "total_r": 0,
+              "profit_factor": "\u2014"
+            },
+            "Stop <0.75 ATR": {
+              "trades": 0,
+              "win_rate": 0,
+              "expectancy": 0,
+              "total_r": 0,
+              "profit_factor": "\u2014"
+            },
+            "Stop 0.75\u20131.5 ATR": {
+              "trades": 0,
+              "win_rate": 0,
+              "expectancy": 0,
+              "total_r": 0,
+              "profit_factor": "\u2014"
+            },
+            "Stop >1.5 ATR": {
+              "trades": 0,
+              "win_rate": 0,
+              "expectancy": 0,
+              "total_r": 0,
+              "profit_factor": "\u2014"
+            },
+            "Previously failed hold": {
+              "trades": 0,
+              "win_rate": 0,
+              "expectancy": 0,
+              "total_r": 0,
+              "profit_factor": "\u2014"
+            },
+            "No failed holds": {
+              "trades": 0,
+              "win_rate": 0,
+              "expectancy": 0,
+              "total_r": 0,
+              "profit_factor": "\u2014"
+            },
+            "Impulse >=3 ATR": {
+              "trades": 0,
+              "win_rate": 0,
+              "expectancy": 0,
+              "total_r": 0,
+              "profit_factor": "\u2014"
+            },
+            "Impulse <3 ATR": {
+              "trades": 0,
+              "win_rate": 0,
+              "expectancy": 0,
+              "total_r": 0,
+              "profit_factor": "\u2014"
+            }
+          }
+        },
+        "Evaluation 30%": {
+          "start": "2025-12-15T00:00:00+00:00",
+          "end": "2026-09-21T00:00:00+00:00",
+          "metrics": {
+            "total_trades": 0,
+            "wins": 0,
+            "losses": 0,
+            "breakeven": 0,
+            "win_rate": 0,
+            "average_win": 0,
+            "average_loss": 0,
+            "average_R": 0,
+            "total_R": 0,
+            "expectancy": 0,
+            "profit_factor": "\u2014",
+            "maximum_drawdown_pct": 0,
+            "longest_losing_streak": 0
+          },
+          "diagnostics": {
+            "LONG": {
+              "trades": 0,
+              "win_rate": 0,
+              "expectancy": 0,
+              "total_r": 0,
+              "profit_factor": "\u2014"
+            },
+            "SHORT": {
+              "trades": 0,
+              "win_rate": 0,
+              "expectancy": 0,
+              "total_r": 0,
+              "profit_factor": "\u2014"
+            },
+            "Fresh zones": {
+              "trades": 0,
+              "win_rate": 0,
+              "expectancy": 0,
+              "total_r": 0,
+              "profit_factor": "\u2014"
+            },
+            "Retested zones": {
+              "trades": 0,
+              "win_rate": 0,
+              "expectancy": 0,
+              "total_r": 0,
+              "profit_factor": "\u2014"
+            },
+            "First retest": {
+              "trades": 0,
+              "win_rate": 0,
+              "expectancy": 0,
+              "total_r": 0,
+              "profit_factor": "\u2014"
+            },
+            "Second/third retest": {
+              "trades": 0,
+              "win_rate": 0,
+              "expectancy": 0,
+              "total_r": 0,
+              "profit_factor": "\u2014"
+            },
+            "Fourth+ retest": {
+              "trades": 0,
+              "win_rate": 0,
+              "expectancy": 0,
+              "total_r": 0,
+              "profit_factor": "\u2014"
+            },
+            "Trend aligned": {
+              "trades": 0,
+              "win_rate": 0,
+              "expectancy": 0,
+              "total_r": 0,
+              "profit_factor": "\u2014"
+            },
+            "Countertrend": {
+              "trades": 0,
+              "win_rate": 0,
+              "expectancy": 0,
+              "total_r": 0,
+              "profit_factor": "\u2014"
+            },
+            "Range": {
+              "trades": 0,
+              "win_rate": 0,
+              "expectancy": 0,
+              "total_r": 0,
+              "profit_factor": "\u2014"
+            },
+            "Rejection": {
+              "trades": 0,
+              "win_rate": 0,
+              "expectancy": 0,
+              "total_r": 0,
+              "profit_factor": "\u2014"
+            },
+            "Breakout-retest": {
+              "trades": 0,
+              "win_rate": 0,
+              "expectancy": 0,
+              "total_r": 0,
+              "profit_factor": "\u2014"
+            },
+            "Strong (>=65)": {
+              "trades": 0,
+              "win_rate": 0,
+              "expectancy": 0,
+              "total_r": 0,
+              "profit_factor": "\u2014"
+            },
+            "Weak (<65)": {
+              "trades": 0,
+              "win_rate": 0,
+              "expectancy": 0,
+              "total_r": 0,
+              "profit_factor": "\u2014"
+            },
+            "Recent (<=100 bars)": {
+              "trades": 0,
+              "win_rate": 0,
+              "expectancy": 0,
+              "total_r": 0,
+              "profit_factor": "\u2014"
+            },
+            "Old (>100 bars)": {
+              "trades": 0,
+              "win_rate": 0,
+              "expectancy": 0,
+              "total_r": 0,
+              "profit_factor": "\u2014"
+            },
+            "Narrow (<=0.5 ATR)": {
+              "trades": 0,
+              "win_rate": 0,
+              "expectancy": 0,
+              "total_r": 0,
+              "profit_factor": "\u2014"
+            },
+            "Wide (>0.5 ATR)": {
+              "trades": 0,
+              "win_rate": 0,
+              "expectancy": 0,
+              "total_r": 0,
+              "profit_factor": "\u2014"
+            },
+            "Stop <0.75 ATR": {
+              "trades": 0,
+              "win_rate": 0,
+              "expectancy": 0,
+              "total_r": 0,
+              "profit_factor": "\u2014"
+            },
+            "Stop 0.75\u20131.5 ATR": {
+              "trades": 0,
+              "win_rate": 0,
+              "expectancy": 0,
+              "total_r": 0,
+              "profit_factor": "\u2014"
+            },
+            "Stop >1.5 ATR": {
+              "trades": 0,
+              "win_rate": 0,
+              "expectancy": 0,
+              "total_r": 0,
+              "profit_factor": "\u2014"
+            },
+            "Previously failed hold": {
+              "trades": 0,
+              "win_rate": 0,
+              "expectancy": 0,
+              "total_r": 0,
+              "profit_factor": "\u2014"
+            },
+            "No failed holds": {
+              "trades": 0,
+              "win_rate": 0,
+              "expectancy": 0,
+              "total_r": 0,
+              "profit_factor": "\u2014"
+            },
+            "Impulse >=3 ATR": {
+              "trades": 0,
+              "win_rate": 0,
+              "expectancy": 0,
+              "total_r": 0,
+              "profit_factor": "\u2014"
+            },
+            "Impulse <3 ATR": {
+              "trades": 0,
+              "win_rate": 0,
+              "expectancy": 0,
+              "total_r": 0,
+              "profit_factor": "\u2014"
+            }
+          }
+        },
+        "First third": {
+          "start": "2024-03-03T00:00:00+00:00",
+          "end": "2025-01-07T00:00:00+00:00",
+          "metrics": {
+            "total_trades": 0,
+            "wins": 0,
+            "losses": 0,
+            "breakeven": 0,
+            "win_rate": 0,
+            "average_win": 0,
+            "average_loss": 0,
+            "average_R": 0,
+            "total_R": 0,
+            "expectancy": 0,
+            "profit_factor": "\u2014",
+            "maximum_drawdown_pct": 0,
+            "longest_losing_streak": 0
+          },
+          "diagnostics": {
+            "LONG": {
+              "trades": 0,
+              "win_rate": 0,
+              "expectancy": 0,
+              "total_r": 0,
+              "profit_factor": "\u2014"
+            },
+            "SHORT": {
+              "trades": 0,
+              "win_rate": 0,
+              "expectancy": 0,
+              "total_r": 0,
+              "profit_factor": "\u2014"
+            },
+            "Fresh zones": {
+              "trades": 0,
+              "win_rate": 0,
+              "expectancy": 0,
+              "total_r": 0,
+              "profit_factor": "\u2014"
+            },
+            "Retested zones": {
+              "trades": 0,
+              "win_rate": 0,
+              "expectancy": 0,
+              "total_r": 0,
+              "profit_factor": "\u2014"
+            },
+            "First retest": {
+              "trades": 0,
+              "win_rate": 0,
+              "expectancy": 0,
+              "total_r": 0,
+              "profit_factor": "\u2014"
+            },
+            "Second/third retest": {
+              "trades": 0,
+              "win_rate": 0,
+              "expectancy": 0,
+              "total_r": 0,
+              "profit_factor": "\u2014"
+            },
+            "Fourth+ retest": {
+              "trades": 0,
+              "win_rate": 0,
+              "expectancy": 0,
+              "total_r": 0,
+              "profit_factor": "\u2014"
+            },
+            "Trend aligned": {
+              "trades": 0,
+              "win_rate": 0,
+              "expectancy": 0,
+              "total_r": 0,
+              "profit_factor": "\u2014"
+            },
+            "Countertrend": {
+              "trades": 0,
+              "win_rate": 0,
+              "expectancy": 0,
+              "total_r": 0,
+              "profit_factor": "\u2014"
+            },
+            "Range": {
+              "trades": 0,
+              "win_rate": 0,
+              "expectancy": 0,
+              "total_r": 0,
+              "profit_factor": "\u2014"
+            },
+            "Rejection": {
+              "trades": 0,
+              "win_rate": 0,
+              "expectancy": 0,
+              "total_r": 0,
+              "profit_factor": "\u2014"
+            },
+            "Breakout-retest": {
+              "trades": 0,
+              "win_rate": 0,
+              "expectancy": 0,
+              "total_r": 0,
+              "profit_factor": "\u2014"
+            },
+            "Strong (>=65)": {
+              "trades": 0,
+              "win_rate": 0,
+              "expectancy": 0,
+              "total_r": 0,
+              "profit_factor": "\u2014"
+            },
+            "Weak (<65)": {
+              "trades": 0,
+              "win_rate": 0,
+              "expectancy": 0,
+              "total_r": 0,
+              "profit_factor": "\u2014"
+            },
+            "Recent (<=100 bars)": {
+              "trades": 0,
+              "win_rate": 0,
+              "expectancy": 0,
+              "total_r": 0,
+              "profit_factor": "\u2014"
+            },
+            "Old (>100 bars)": {
+              "trades": 0,
+              "win_rate": 0,
+              "expectancy": 0,
+              "total_r": 0,
+              "profit_factor": "\u2014"
+            },
+            "Narrow (<=0.5 ATR)": {
+              "trades": 0,
+              "win_rate": 0,
+              "expectancy": 0,
+              "total_r": 0,
+              "profit_factor": "\u2014"
+            },
+            "Wide (>0.5 ATR)": {
+              "trades": 0,
+              "win_rate": 0,
+              "expectancy": 0,
+              "total_r": 0,
+              "profit_factor": "\u2014"
+            },
+            "Stop <0.75 ATR": {
+              "trades": 0,
+              "win_rate": 0,
+              "expectancy": 0,
+              "total_r": 0,
+              "profit_factor": "\u2014"
+            },
+            "Stop 0.75\u20131.5 ATR": {
+              "trades": 0,
+              "win_rate": 0,
+              "expectancy": 0,
+              "total_r": 0,
+              "profit_factor": "\u2014"
+            },
+            "Stop >1.5 ATR": {
+              "trades": 0,
+              "win_rate": 0,
+              "expectancy": 0,
+              "total_r": 0,
+              "profit_factor": "\u2014"
+            },
+            "Previously failed hold": {
+              "trades": 0,
+              "win_rate": 0,
+              "expectancy": 0,
+              "total_r": 0,
+              "profit_factor": "\u2014"
+            },
+            "No failed holds": {
+              "trades": 0,
+              "win_rate": 0,
+              "expectancy": 0,
+              "total_r": 0,
+              "profit_factor": "\u2014"
+            },
+            "Impulse >=3 ATR": {
+              "trades": 0,
+              "win_rate": 0,
+              "expectancy": 0,
+              "total_r": 0,
+              "profit_factor": "\u2014"
+            },
+            "Impulse <3 ATR": {
+              "trades": 0,
+              "win_rate": 0,
+              "expectancy": 0,
+              "total_r": 0,
+              "profit_factor": "\u2014"
+            }
+          }
+        },
+        "Middle third": {
+          "start": "2025-01-07T00:00:00+00:00",
+          "end": "2025-11-14T00:00:00+00:00",
+          "metrics": {
+            "total_trades": 0,
+            "wins": 0,
+            "losses": 0,
+            "breakeven": 0,
+            "win_rate": 0,
+            "average_win": 0,
+            "average_loss": 0,
+            "average_R": 0,
+            "total_R": 0,
+            "expectancy": 0,
+            "profit_factor": "\u2014",
+            "maximum_drawdown_pct": 0,
+            "longest_losing_streak": 0
+          },
+          "diagnostics": {
+            "LONG": {
+              "trades": 0,
+              "win_rate": 0,
+              "expectancy": 0,
+              "total_r": 0,
+              "profit_factor": "\u2014"
+            },
+            "SHORT": {
+              "trades": 0,
+              "win_rate": 0,
+              "expectancy": 0,
+              "total_r": 0,
+              "profit_factor": "\u2014"
+            },
+            "Fresh zones": {
+              "trades": 0,
+              "win_rate": 0,
+              "expectancy": 0,
+              "total_r": 0,
+              "profit_factor": "\u2014"
+            },
+            "Retested zones": {
+              "trades": 0,
+              "win_rate": 0,
+              "expectancy": 0,
+              "total_r": 0,
+              "profit_factor": "\u2014"
+            },
+            "First retest": {
+              "trades": 0,
+              "win_rate": 0,
+              "expectancy": 0,
+              "total_r": 0,
+              "profit_factor": "\u2014"
+            },
+            "Second/third retest": {
+              "trades": 0,
+              "win_rate": 0,
+              "expectancy": 0,
+              "total_r": 0,
+              "profit_factor": "\u2014"
+            },
+            "Fourth+ retest": {
+              "trades": 0,
+              "win_rate": 0,
+              "expectancy": 0,
+              "total_r": 0,
+              "profit_factor": "\u2014"
+            },
+            "Trend aligned": {
+              "trades": 0,
+              "win_rate": 0,
+              "expectancy": 0,
+              "total_r": 0,
+              "profit_factor": "\u2014"
+            },
+            "Countertrend": {
+              "trades": 0,
+              "win_rate": 0,
+              "expectancy": 0,
+              "total_r": 0,
+              "profit_factor": "\u2014"
+            },
+            "Range": {
+              "trades": 0,
+              "win_rate": 0,
+              "expectancy": 0,
+              "total_r": 0,
+              "profit_factor": "\u2014"
+            },
+            "Rejection": {
+              "trades": 0,
+              "win_rate": 0,
+              "expectancy": 0,
+              "total_r": 0,
+              "profit_factor": "\u2014"
+            },
+            "Breakout-retest": {
+              "trades": 0,
+              "win_rate": 0,
+              "expectancy": 0,
+              "total_r": 0,
+              "profit_factor": "\u2014"
+            },
+            "Strong (>=65)": {
+              "trades": 0,
+              "win_rate": 0,
+              "expectancy": 0,
+              "total_r": 0,
+              "profit_factor": "\u2014"
+            },
+            "Weak (<65)": {
+              "trades": 0,
+              "win_rate": 0,
+              "expectancy": 0,
+              "total_r": 0,
+              "profit_factor": "\u2014"
+            },
+            "Recent (<=100 bars)": {
+              "trades": 0,
+              "win_rate": 0,
+              "expectancy": 0,
+              "total_r": 0,
+              "profit_factor": "\u2014"
+            },
+            "Old (>100 bars)": {
+              "trades": 0,
+              "win_rate": 0,
+              "expectancy": 0,
+              "total_r": 0,
+              "profit_factor": "\u2014"
+            },
+            "Narrow (<=0.5 ATR)": {
+              "trades": 0,
+              "win_rate": 0,
+              "expectancy": 0,
+              "total_r": 0,
+              "profit_factor": "\u2014"
+            },
+            "Wide (>0.5 ATR)": {
+              "trades": 0,
+              "win_rate": 0,
+              "expectancy": 0,
+              "total_r": 0,
+              "profit_factor": "\u2014"
+            },
+            "Stop <0.75 ATR": {
+              "trades": 0,
+              "win_rate": 0,
+              "expectancy": 0,
+              "total_r": 0,
+              "profit_factor": "\u2014"
+            },
+            "Stop 0.75\u20131.5 ATR": {
+              "trades": 0,
+              "win_rate": 0,
+              "expectancy": 0,
+              "total_r": 0,
+              "profit_factor": "\u2014"
+            },
+            "Stop >1.5 ATR": {
+              "trades": 0,
+              "win_rate": 0,
+              "expectancy": 0,
+              "total_r": 0,
+              "profit_factor": "\u2014"
+            },
+            "Previously failed hold": {
+              "trades": 0,
+              "win_rate": 0,
+              "expectancy": 0,
+              "total_r": 0,
+              "profit_factor": "\u2014"
+            },
+            "No failed holds": {
+              "trades": 0,
+              "win_rate": 0,
+              "expectancy": 0,
+              "total_r": 0,
+              "profit_factor": "\u2014"
+            },
+            "Impulse >=3 ATR": {
+              "trades": 0,
+              "win_rate": 0,
+              "expectancy": 0,
+              "total_r": 0,
+              "profit_factor": "\u2014"
+            },
+            "Impulse <3 ATR": {
+              "trades": 0,
+              "win_rate": 0,
+              "expectancy": 0,
+              "total_r": 0,
+              "profit_factor": "\u2014"
+            }
+          }
+        },
+        "Latest third": {
+          "start": "2025-11-14T00:00:00+00:00",
+          "end": "2026-09-21T00:00:00+00:00",
+          "metrics": {
+            "total_trades": 0,
+            "wins": 0,
+            "losses": 0,
+            "breakeven": 0,
+            "win_rate": 0,
+            "average_win": 0,
+            "average_loss": 0,
+            "average_R": 0,
+            "total_R": 0,
+            "expectancy": 0,
+            "profit_factor": "\u2014",
+            "maximum_drawdown_pct": 0,
+            "longest_losing_streak": 0
+          },
+          "diagnostics": {
+            "LONG": {
+              "trades": 0,
+              "win_rate": 0,
+              "expectancy": 0,
+              "total_r": 0,
+              "profit_factor": "\u2014"
+            },
+            "SHORT": {
+              "trades": 0,
+              "win_rate": 0,
+              "expectancy": 0,
+              "total_r": 0,
+              "profit_factor": "\u2014"
+            },
+            "Fresh zones": {
+              "trades": 0,
+              "win_rate": 0,
+              "expectancy": 0,
+              "total_r": 0,
+              "profit_factor": "\u2014"
+            },
+            "Retested zones": {
+              "trades": 0,
+              "win_rate": 0,
+              "expectancy": 0,
+              "total_r": 0,
+              "profit_factor": "\u2014"
+            },
+            "First retest": {
+              "trades": 0,
+              "win_rate": 0,
+              "expectancy": 0,
+              "total_r": 0,
+              "profit_factor": "\u2014"
+            },
+            "Second/third retest": {
+              "trades": 0,
+              "win_rate": 0,
+              "expectancy": 0,
+              "total_r": 0,
+              "profit_factor": "\u2014"
+            },
+            "Fourth+ retest": {
+              "trades": 0,
+              "win_rate": 0,
+              "expectancy": 0,
+              "total_r": 0,
+              "profit_factor": "\u2014"
+            },
+            "Trend aligned": {
+              "trades": 0,
+              "win_rate": 0,
+              "expectancy": 0,
+              "total_r": 0,
+              "profit_factor": "\u2014"
+            },
+            "Countertrend": {
+              "trades": 0,
+              "win_rate": 0,
+              "expectancy": 0,
+              "total_r": 0,
+              "profit_factor": "\u2014"
+            },
+            "Range": {
+              "trades": 0,
+              "win_rate": 0,
+              "expectancy": 0,
+              "total_r": 0,
+              "profit_factor": "\u2014"
+            },
+            "Rejection": {
+              "trades": 0,
+              "win_rate": 0,
+              "expectancy": 0,
+              "total_r": 0,
+              "profit_factor": "\u2014"
+            },
+            "Breakout-retest": {
+              "trades": 0,
+              "win_rate": 0,
+              "expectancy": 0,
+              "total_r": 0,
+              "profit_factor": "\u2014"
+            },
+            "Strong (>=65)": {
+              "trades": 0,
+              "win_rate": 0,
+              "expectancy": 0,
+              "total_r": 0,
+              "profit_factor": "\u2014"
+            },
+            "Weak (<65)": {
+              "trades": 0,
+              "win_rate": 0,
+              "expectancy": 0,
+              "total_r": 0,
+              "profit_factor": "\u2014"
+            },
+            "Recent (<=100 bars)": {
+              "trades": 0,
+              "win_rate": 0,
+              "expectancy": 0,
+              "total_r": 0,
+              "profit_factor": "\u2014"
+            },
+            "Old (>100 bars)": {
+              "trades": 0,
+              "win_rate": 0,
+              "expectancy": 0,
+              "total_r": 0,
+              "profit_factor": "\u2014"
+            },
+            "Narrow (<=0.5 ATR)": {
+              "trades": 0,
+              "win_rate": 0,
+              "expectancy": 0,
+              "total_r": 0,
+              "profit_factor": "\u2014"
+            },
+            "Wide (>0.5 ATR)": {
+              "trades": 0,
+              "win_rate": 0,
+              "expectancy": 0,
+              "total_r": 0,
+              "profit_factor": "\u2014"
+            },
+            "Stop <0.75 ATR": {
+              "trades": 0,
+              "win_rate": 0,
+              "expectancy": 0,
+              "total_r": 0,
+              "profit_factor": "\u2014"
+            },
+            "Stop 0.75\u20131.5 ATR": {
+              "trades": 0,
+              "win_rate": 0,
+              "expectancy": 0,
+              "total_r": 0,
+              "profit_factor": "\u2014"
+            },
+            "Stop >1.5 ATR": {
+              "trades": 0,
+              "win_rate": 0,
+              "expectancy": 0,
+              "total_r": 0,
+              "profit_factor": "\u2014"
+            },
+            "Previously failed hold": {
+              "trades": 0,
+              "win_rate": 0,
+              "expectancy": 0,
+              "total_r": 0,
+              "profit_factor": "\u2014"
+            },
+            "No failed holds": {
+              "trades": 0,
+              "win_rate": 0,
+              "expectancy": 0,
+              "total_r": 0,
+              "profit_factor": "\u2014"
+            },
+            "Impulse >=3 ATR": {
+              "trades": 0,
+              "win_rate": 0,
+              "expectancy": 0,
+              "total_r": 0,
+              "profit_factor": "\u2014"
+            },
+            "Impulse <3 ATR": {
+              "trades": 0,
+              "win_rate": 0,
+              "expectancy": 0,
+              "total_r": 0,
+              "profit_factor": "\u2014"
+            }
+          }
+        },
+        "User six months": {
+          "start": "2026-03-21T00:00:00+00:00",
+          "end": "2026-09-21T00:00:00+00:00",
+          "metrics": {
+            "total_trades": 0,
+            "wins": 0,
+            "losses": 0,
+            "breakeven": 0,
+            "win_rate": 0,
+            "average_win": 0,
+            "average_loss": 0,
+            "average_R": 0,
+            "total_R": 0,
+            "expectancy": 0,
+            "profit_factor": "\u2014",
+            "maximum_drawdown_pct": 0,
+            "longest_losing_streak": 0
+          },
+          "diagnostics": {
+            "LONG": {
+              "trades": 0,
+              "win_rate": 0,
+              "expectancy": 0,
+              "total_r": 0,
+              "profit_factor": "\u2014"
+            },
+            "SHORT": {
+              "trades": 0,
+              "win_rate": 0,
+              "expectancy": 0,
+              "total_r": 0,
+              "profit_factor": "\u2014"
+            },
+            "Fresh zones": {
+              "trades": 0,
+              "win_rate": 0,
+              "expectancy": 0,
+              "total_r": 0,
+              "profit_factor": "\u2014"
+            },
+            "Retested zones": {
+              "trades": 0,
+              "win_rate": 0,
+              "expectancy": 0,
+              "total_r": 0,
+              "profit_factor": "\u2014"
+            },
+            "First retest": {
+              "trades": 0,
+              "win_rate": 0,
+              "expectancy": 0,
+              "total_r": 0,
+              "profit_factor": "\u2014"
+            },
+            "Second/third retest": {
+              "trades": 0,
+              "win_rate": 0,
+              "expectancy": 0,
+              "total_r": 0,
+              "profit_factor": "\u2014"
+            },
+            "Fourth+ retest": {
+              "trades": 0,
+              "win_rate": 0,
+              "expectancy": 0,
+              "total_r": 0,
+              "profit_factor": "\u2014"
+            },
+            "Trend aligned": {
+              "trades": 0,
+              "win_rate": 0,
+              "expectancy": 0,
+              "total_r": 0,
+              "profit_factor": "\u2014"
+            },
+            "Countertrend": {
+              "trades": 0,
+              "win_rate": 0,
+              "expectancy": 0,
+              "total_r": 0,
+              "profit_factor": "\u2014"
+            },
+            "Range": {
+              "trades": 0,
+              "win_rate": 0,
+              "expectancy": 0,
+              "total_r": 0,
+              "profit_factor": "\u2014"
+            },
+            "Rejection": {
+              "trades": 0,
+              "win_rate": 0,
+              "expectancy": 0,
+              "total_r": 0,
+              "profit_factor": "\u2014"
+            },
+            "Breakout-retest": {
+              "trades": 0,
+              "win_rate": 0,
+              "expectancy": 0,
+              "total_r": 0,
+              "profit_factor": "\u2014"
+            },
+            "Strong (>=65)": {
+              "trades": 0,
+              "win_rate": 0,
+              "expectancy": 0,
+              "total_r": 0,
+              "profit_factor": "\u2014"
+            },
+            "Weak (<65)": {
+              "trades": 0,
+              "win_rate": 0,
+              "expectancy": 0,
+              "total_r": 0,
+              "profit_factor": "\u2014"
+            },
+            "Recent (<=100 bars)": {
+              "trades": 0,
+              "win_rate": 0,
+              "expectancy": 0,
+              "total_r": 0,
+              "profit_factor": "\u2014"
+            },
+            "Old (>100 bars)": {
+              "trades": 0,
+              "win_rate": 0,
+              "expectancy": 0,
+              "total_r": 0,
+              "profit_factor": "\u2014"
+            },
+            "Narrow (<=0.5 ATR)": {
+              "trades": 0,
+              "win_rate": 0,
+              "expectancy": 0,
+              "total_r": 0,
+              "profit_factor": "\u2014"
+            },
+            "Wide (>0.5 ATR)": {
+              "trades": 0,
+              "win_rate": 0,
+              "expectancy": 0,
+              "total_r": 0,
+              "profit_factor": "\u2014"
+            },
+            "Stop <0.75 ATR": {
+              "trades": 0,
+              "win_rate": 0,
+              "expectancy": 0,
+              "total_r": 0,
+              "profit_factor": "\u2014"
+            },
+            "Stop 0.75\u20131.5 ATR": {
+              "trades": 0,
+              "win_rate": 0,
+              "expectancy": 0,
+              "total_r": 0,
+              "profit_factor": "\u2014"
+            },
+            "Stop >1.5 ATR": {
+              "trades": 0,
+              "win_rate": 0,
+              "expectancy": 0,
+              "total_r": 0,
+              "profit_factor": "\u2014"
+            },
+            "Previously failed hold": {
+              "trades": 0,
+              "win_rate": 0,
+              "expectancy": 0,
+              "total_r": 0,
+              "profit_factor": "\u2014"
+            },
+            "No failed holds": {
+              "trades": 0,
+              "win_rate": 0,
+              "expectancy": 0,
+              "total_r": 0,
+              "profit_factor": "\u2014"
+            },
+            "Impulse >=3 ATR": {
+              "trades": 0,
+              "win_rate": 0,
+              "expectancy": 0,
+              "total_r": 0,
+              "profit_factor": "\u2014"
+            },
+            "Impulse <3 ATR": {
+              "trades": 0,
+              "win_rate": 0,
+              "expectancy": 0,
+              "total_r": 0,
+              "profit_factor": "\u2014"
+            }
+          }
+        }
+      }
+    },
+    "v2_saved_run_id": 2
+  }
+}

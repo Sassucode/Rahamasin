@@ -1,0 +1,72 @@
+4h original: evaluating fixed rules
+  Full: n=87 R=-16.988 PF=0.7844306574777141
+  Development 70%: n=55 R=-16.068 PF=0.6881320075023568
+  Evaluation 30%: n=32 R=-0.919 PF=0.9662964354503141
+  First third: n=31 R=-6.347 PF=0.7803699808748643
+  Middle third: n=20 R=-7.884 PF=0.5807789608785928
+  Latest third: n=36 R=-2.757 PF=0.911347060391039
+  User six months: n=37 R=-3.903 PF=0.878964623393869
+4h execution_fixed: evaluating fixed rules
+  Full: n=87 R=-16.988 PF=0.7844306574777141
+  Development 70%: n=55 R=-16.068 PF=0.6881320075023568
+  Evaluation 30%: n=32 R=-0.919 PF=0.9662964354503141
+  First third: n=31 R=-6.347 PF=0.7803699808748643
+  Middle third: n=20 R=-7.884 PF=0.5807789608785928
+  Latest third: n=36 R=-2.757 PF=0.911347060391039
+  User six months: n=37 R=-3.903 PF=0.878964623393869
+4h v2: evaluating fixed rules
+  Full: n=0 R=0.000 PF=—
+  Development 70%: n=0 R=0.000 PF=—
+  Evaluation 30%: n=0 R=0.000 PF=—
+  First third: n=0 R=0.000 PF=—
+  Middle third: n=0 R=0.000 PF=—
+  Latest third: n=0 R=0.000 PF=—
+  User six months: n=0 R=0.000 PF=—
+1h original: evaluating fixed rules
+  Full: n=394 R=-159.518 PF=0.6168958889427768
+  Development 70%: n=281 R=-109.811 PF=0.6341876150269666
+  Evaluation 30%: n=113 R=-49.707 PF=0.5722251553652472
+  First third: n=137 R=-42.431 PF=0.6977130047228968
+  Middle third: n=126 R=-53.149 PF=0.6145052372811093
+  Latest third: n=130 R=-62.486 PF=0.5428745534575249
+  User six months: n=134 R=-60.912 PF=0.5634228002840421
+1h execution_fixed: evaluating fixed rules
+  Full: n=394 R=-159.518 PF=0.6168958889427768
+  Development 70%: n=281 R=-109.811 PF=0.6341876150269666
+  Evaluation 30%: n=113 R=-49.707 PF=0.5722251553652472
+  First third: n=137 R=-42.431 PF=0.6977130047228968
+  Middle third: n=126 R=-53.149 PF=0.6145052372811093
+  Latest third: n=130 R=-62.486 PF=0.5428745534575249
+  User six months: n=134 R=-60.912 PF=0.5634228002840421
+1h v2: evaluating fixed rules
+  Full: n=1 R=2.426 PF=∞
+  Development 70%: n=1 R=2.426 PF=∞
+  Evaluation 30%: n=0 R=0.000 PF=—
+  First third: n=1 R=2.426 PF=∞
+  Middle third: n=0 R=0.000 PF=—
+  Latest third: n=0 R=0.000 PF=—
+  User six months: n=0 R=0.000 PF=—
+1d original: evaluating fixed rules
+  Full: n=16 R=-2.683 PF=0.77181685487908
+  Development 70%: n=11 R=2.248 PF=1.3292321619319163
+  Evaluation 30%: n=5 R=-4.931 PF=0.0
+  First third: n=6 R=-0.826 PF=0.809758933688449
+  Middle third: n=4 R=1.009 PF=1.4058958003794813
+  Latest third: n=6 R=-2.866 PF=0.41868276895027473
+  User six months: n=7 R=0.629 PF=1.1275966066665015
+1d execution_fixed: evaluating fixed rules
+  Full: n=16 R=-2.683 PF=0.77181685487908
+  Development 70%: n=11 R=2.248 PF=1.3292321619319163
+  Evaluation 30%: n=5 R=-4.931 PF=0.0
+  First third: n=6 R=-0.826 PF=0.809758933688449
+  Middle third: n=4 R=1.009 PF=1.4058958003794813
+  Latest third: n=6 R=-2.866 PF=0.41868276895027473
+  User six months: n=7 R=0.629 PF=1.1275966066665015
+1d v2: evaluating fixed rules
+  Full: n=0 R=0.000 PF=—
+  Development 70%: n=0 R=0.000 PF=—
+  Evaluation 30%: n=0 R=0.000 PF=—
+  First third: n=0 R=0.000 PF=—
+  Middle third: n=0 R=0.000 PF=—
+  Latest third: n=0 R=0.000 PF=—
+  User six months: n=0 R=0.000 PF=—
